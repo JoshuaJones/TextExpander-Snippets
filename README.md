@@ -6,7 +6,9 @@ Collection of my TextExpander snippets used for daily coding and what-not.
 
 #### Characters
 
-Set of characters or silly emoticons. Inspiried from Brett Terpstra's with a few of my own thrown in. Personal favorite being: (╯°□°）╯︵ ┻━┻
+Set of characters or silly emoticons. Inspiried from Brett Terpstra's with a few of my own thrown in. 
+
+Personal favorite being: (╯°□°）╯︵ ┻━┻
 
 #### CSS
 
