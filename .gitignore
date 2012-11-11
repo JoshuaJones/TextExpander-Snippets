@@ -1,0 +1,14 @@
+# OS or Editor Files
+.DS_Store
+._*
+.cache
+.project
+.settings
+.tmproj
+*.sublime-project
+*.sublime-workspace
+
+# Folders to ignore
+intermediate
+publish
+.idea
