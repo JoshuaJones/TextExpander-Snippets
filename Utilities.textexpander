@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Utilities</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>,hta-hotlinking</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-12-09T18:41:40Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>.htaccess - Prevent hotlinking</string>
+			<key>modificationDate</key>
+			<date>2012-11-11T03:13:42Z</date>
+			<key>plainText</key>
+			<string>RewriteEngine On
+#Replace ?mysite\.com/ with your blog url
+RewriteCond %{HTTP_REFERER} !^http://(.+\.)?mysite\.com/ [NC]
+RewriteCond %{HTTP_REFERER} !^$
+#Replace /images/nohotlink.jpg with your "don't hotlink" image url
+RewriteRule .*\.(jpe?g|gif|bmp|png)$ /images/nohotlink.jpg [L]</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0352928A-30C6-4419-A0E9-71685D421C33</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,httpdre</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-08-24T18:34:14Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2012-08-24T20:01:11Z</date>
+			<key>modificationDate</key>
+			<date>2012-08-24T18:34:14Z</date>
+			<key>plainText</key>
+			<string>/etc/init.d/httpd reload</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>F9A8A837-0BD3-4C6F-9597-7B911FDAC5AA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,iehtml</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-11-06T21:49:53Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>IE Conditional HTML</string>
+			<key>modificationDate</key>
+			<date>2012-11-06T21:51:43Z</date>
+			<key>plainText</key>
+			<string>&lt;!--[if lt IE 7]&gt; &lt;html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 7]&gt;    &lt;html class="no-js lt-ie9 lt-ie8" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 8]&gt;    &lt;html class="no-js lt-ie9" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if IE 9]&gt;    &lt;html class="no-js lt-ie10" lang="en"&gt; &lt;![endif]--&gt;
+&lt;!--[if gt IE 9]&gt;&lt;!--&gt; &lt;html class="no-js" lang="en"&gt; &lt;!--&lt;![endif]--&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B38C6612-912D-46AD-8BE6-FA8A7A0F21E6</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,gitignore</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-11-01T19:31:14Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Git Ignore Template</string>
+			<key>modificationDate</key>
+			<date>2012-11-01T19:34:47Z</date>
+			<key>plainText</key>
+			<string># OS or Editor Files
+.DS_Store
+._*
+.cache
+.project
+.settings
+.tmproj
+*.sublime-project
+*.sublime-workspace
+
+# Folders to ignore
+intermediate
+publish
+.idea</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>ED115FF0-225C-4DF3-A76D-0E798B6DACEB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sbp-enviro</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-19T02:34:13Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Sublime Text Preview Environments</string>
+			<key>modificationDate</key>
+			<date>2012-11-11T03:14:09Z</date>
+			<key>plainText</key>
+			<string>{
+    "S:/www/domain.tld":{
+        "url_testing":"http://testing",
+        "url_production":"http://domain.tld"
+    }
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>2B1D449A-BFCB-4629-8FB8-952B42B131DF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,simplehtaccess</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-11T17:41:38Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Simple Rewrite</string>
+			<key>lastUsed</key>
+			<date>2012-10-21T22:51:08Z</date>
+			<key>modificationDate</key>
+			<date>2012-11-11T03:13:17Z</date>
+			<key>plainText</key>
+			<string>RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^/]+)/$ $1.html 
+
+# Forces a trailing slash to be added
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule (.*)$ /$1/ [R=301,L]</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F4020D2A-9369-4581-A01A-F510A045882C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,editorconfig</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-06T04:03:58Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>.editorconfig</string>
+			<key>lastUsed</key>
+			<date>2012-09-06T04:08:37Z</date>
+			<key>modificationDate</key>
+			<date>2012-09-06T04:04:22Z</date>
+			<key>plainText</key>
+			<string># editorconfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>831D59EB-166D-43F0-AD2D-CA2B2B88706A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>fdate</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-03-15T17:58:49Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Finder Friendly Date</string>
+			<key>lastUsed</key>
+			<date>2012-10-31T17:35:30Z</date>
+			<key>modificationDate</key>
+			<date>2010-03-15T17:59:07Z</date>
+			<key>plainText</key>
+			<string>%Y-%m-%d</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>61</integer>
+			<key>uuidString</key>
+			<string>E262062C-A60F-4E58-A703-E5139600229B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ddate</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-05-25T07:35:44Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2012-11-07T19:21:48Z</date>
+			<key>modificationDate</key>
+			<date>2009-05-25T07:35:44Z</date>
+			<key>plainText</key>
+			<string>%B %e, %Y</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>43</integer>
+			<key>uuidString</key>
+			<string>1439FACF-93A6-4BFB-973A-46AC9F6810D2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ttime</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-05-25T07:35:44Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2012-09-20T21:37:00Z</date>
+			<key>modificationDate</key>
+			<date>2009-05-25T07:35:44Z</date>
+			<key>plainText</key>
+			<string>%1I:%M %p</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>7</integer>
+			<key>uuidString</key>
+			<string>82D4C176-0506-4745-B373-AB2BA3CF5B7F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,localxipio</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-13T17:50:55Z</date>
+			<key>flags</key>
+			<integer>1</integer>
+			<key>label</key>
+			<string>xip.io Site Address</string>
+			<key>lastUsed</key>
+			<date>2012-10-13T17:58:25Z</date>
+			<key>modificationDate</key>
+			<date>2012-11-11T21:52:06Z</date>
+			<key>plainText</key>
+			<string>%filltext:name=sitename:width=15%.%snippet:,wifiip%.xip.io</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>3B381D50-59C0-4E7B-9832-78076675B22F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,xipio</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-04T16:48:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>xip.io ServerAlias</string>
+			<key>lastUsed</key>
+			<date>2012-10-22T18:50:00Z</date>
+			<key>modificationDate</key>
+			<date>2012-11-11T21:52:14Z</date>
+			<key>plainText</key>
+			<string>ServerAlias %|.*.xip.io</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>6</integer>
+			<key>uuidString</key>
+			<string>0A07F230-6977-4E1D-84B8-6EF7E40A8E0C</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ftdate</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-20T21:59:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Full Date + Time</string>
+			<key>modificationDate</key>
+			<date>2012-09-20T22:00:38Z</date>
+			<key>plainText</key>
+			<string>%Y-%m-%d %H:%M:%S</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DBD1B51D-12E8-41E2-AD97-99A3720D8046</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,myip</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-05T07:49:49Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Ext IP</string>
+			<key>modificationDate</key>
+			<date>2012-10-05T07:50:24Z</date>
+			<key>plainText</key>
+			<string>#!/bin/sh
+/bin/echo -n `curl http://api.externalip.net/ip/`</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>9E379299-6B32-4E6A-BBD7-52D5C646AEBC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,wifiip</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-05T07:47:48Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Wifi IP</string>
+			<key>lastUsed</key>
+			<date>2012-10-22T04:07:19Z</date>
+			<key>modificationDate</key>
+			<date>2012-10-05T07:47:48Z</date>
+			<key>plainText</key>
+			<string>#!/bin/sh
+/bin/echo -n `ipconfig getifaddr en1`</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>8485F458-AD3E-4ECA-9CF0-E7CF30CEBFD8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,ethip</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-05T07:47:08Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Ethernet IP</string>
+			<key>lastUsed</key>
+			<date>2012-10-08T17:39:22Z</date>
+			<key>modificationDate</key>
+			<date>2012-10-05T07:47:46Z</date>
+			<key>plainText</key>
+			<string>#!/bin/sh
+/bin/echo -n `ipconfig getifaddr en4`</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>9C57A920-2800-434B-AA5F-7FF1D940CECE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,showhidden</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-09-24T17:55:59Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Show Mac OS X Hidden Files</string>
+			<key>modificationDate</key>
+			<date>2012-09-24T17:56:15Z</date>
+			<key>plainText</key>
+			<string>defaults write com.apple.Finder AppleShowAllFiles YES</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>AC842922-8DE1-4969-8CF0-A0995ED4EE3F</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>SASS</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sasstype</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-28T20:57:37Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>SASS Type</string>
+			<key>modificationDate</key>
+			<date>2012-10-28T20:57:45Z</date>
+			<key>plainText</key>
+			<string>// Type
+
+// Headings
+// --------------------------
+h1, h2, h3, h4, h5, h6 {
+  margin: ($baseLineHeight / 2) 0;
+  font-family: $headingsFontFamily;
+  font-weight: $headingsFontWeight;
+  line-height: 1;
+  color: $headingsColor;
+  text-rendering: optimizelegibility; // Fix the character spacing for headings
+  small {
+    font-weight: normal;
+    line-height: 1;
+    color: $grayLight;
+  }
+}
+h1 { font-size: 36px; line-height: 40px; }
+h2 { font-size: 30px; line-height: 40px; }
+h3 { font-size: 24px; line-height: 40px; }
+h4 { font-size: 18px; line-height: 20px; }
+h5 { font-size: 14px; line-height: 20px; }
+h6 { font-size: 12px; line-height: 20px; }
+
+h1 small { font-size: 24px; }
+h2 small { font-size: 18px; }
+h3 small { font-size: 14px; }
+h4 small { font-size: 14px; }
+
+// Links
+// --------------------------
+
+a {
+  color: #00e;
+  @include transition(color 0.25s ease);
+  }
+
+a:visited {
+  color: #551a8b;
+  }
+
+a:hover {
+  color: #06e;
+  }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+// Lists
+// --------------------------
+
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+  }
+
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  } 
+
+
+// Misc
+// --------------------------
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  }
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+  }
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+  }
+
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+  }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  }
+q { quotes: none; }
+q:before, q:after {
+  content: "";
+  content: none;
+  }
+
+small { font-size: 85%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>72BF922A-4BE4-44FD-927D-D72CD7621692</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sassvars</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-28T20:52:38Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>SASS Variables</string>
+			<key>modificationDate</key>
+			<date>2012-10-28T20:52:47Z</date>
+			<key>plainText</key>
+			<string>// Variables
+
+// Grays
+// --------------------------
+$black:                 #000;
+$grayDarker:            #222;
+$grayDark:              #333;
+$gray:                  #555;
+$grayLight:             #999;
+$grayLighter:           #eee;
+$white:                 #fff;
+
+// Typography
+// --------------------------
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serifFontFamily:       Georgia, "Times New Roman", Times, serif;
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+
+$baseFontSize:          14px;
+$baseFontFamily:        $sansFontFamily;
+$baseLineHeight:        20px;
+$altFontFamily:         $serifFontFamily;
+
+$headingsFontFamily:    inherit; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    bold;    // instead of browser default, bold
+$headingsColor:         inherit; // empty to use BS default, @textColor</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>315EEB07-62CB-4698-ABD7-5373D7504B77</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sassmixins</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-28T20:48:32Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>SASS Mixins</string>
+			<key>modificationDate</key>
+			<date>2012-10-28T20:48:44Z</date>
+			<key>plainText</key>
+			<string>// Mixins
+@mixin retinaBackground($file, $width, $height, $type: png) {
+  background-image: url($file + '.' + $type);
+
+  @media (-webkit-min-device-pixel-ratio: 1.5), (-moz-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    &amp; {
+      background-image: url($file + '@2x.' + $type);
+      @include background-size($width $height);
+    }
+  }
+}
+
+@mixin size($width, $height) {
+  height: $height;
+  width: $width;  
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D0CCE58C-87CE-456C-8671-C26323A5ACAB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sassmain</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-28T20:47:21Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>SASS Main</string>
+			<key>modificationDate</key>
+			<date>2012-10-28T20:47:35Z</date>
+			<key>plainText</key>
+			<string>//
+//  Project Name
+//  www.sitename.com
+//  v1.0.0
+//
+
+// Compass
+@import "compass/css3";
+@import "compass/typography";
+@import "compass/utilities";
+
+// SASS
+@import "variables";
+@import "mixins";
+
+// Template
+@import "layout";
+@import "typography";
+@import "style";
+@import "responsive";
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>880A8A1A-2D3A-42FE-B32D-24041CBBB0BF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sasslayout</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-28T20:46:52Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>SASS Layout</string>
+			<key>modificationDate</key>
+			<date>2012-11-07T21:54:25Z</date>
+			<key>plainText</key>
+			<string>// Normalize &amp; Layout
+article, aside, details, figcaption, figure, footer,
+header, hgroup, nav, section, summary { display: block; }
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+/* Base */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  }
+
+@-ms-viewport { width: device-width; }
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+html, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+  }
+
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+  }
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+  }
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+  }
+
+/* Embedded Content */ 
+img {
+  border: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+  }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; }
+
+/* Form Elements */
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+  }
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  }
+button, input { line-height: normal; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+  }
+
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+  }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  vertical-align: top;
+  }
+
+/* Tables */
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.chromeframe { background: #ccc; color: #000; margin: 0.2em 0; padding: 0.2em 0; }
+
+// Structure</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B7E55A29-5AD2-4459-B20E-F9BF4EAFA54D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sassmediabreaks</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-13T19:59:09Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2012-11-11T21:28:54Z</date>
+			<key>plainText</key>
+			<string>// Easy Media Query Breakpoints
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media (max-width: 1024px) { @content; }
+  }
+  @if $point == medium {
+    @media (max-width: 768px) { @content; }
+  }
+  @if $point == small {
+    @media (max-width: 480px) { @content; }
+  }
+}
+
+/* Example
+.class {
+  background: blue;
+  @include breakpoint(small) { background: green; }
+} */</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>E2AE82F5-0BCC-4751-9898-7C175F827B7B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sasswordwrap</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-13T19:58:52Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2012-11-11T21:29:17Z</date>
+			<key>plainText</key>
+			<string>// Word Wrapping
+@mixin word-wrap() {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>487A842B-147D-442A-846E-090D7180FFBF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,sassellipsis</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-10-13T19:58:25Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2012-11-11T21:29:27Z</date>
+			<key>plainText</key>
+			<string>// Overflow Ellipsis
+@mixin ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>504087CE-FF8A-4121-82E2-1FFBC3DA08EB</string>
+		</dict>
+	</array>
+</dict>
+</plist>

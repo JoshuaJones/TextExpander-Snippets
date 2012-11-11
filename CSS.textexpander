@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>CSS</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>,border-box</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-03-07T23:42:47Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Border Box</string>
+			<key>modificationDate</key>
+			<date>2012-03-18T02:29:49Z</date>
+			<key>plainText</key>
+			<string>-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>ABB00545-3AF1-480C-901F-22FE44809ABD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,css-bg-size</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-09-05T09:05:57Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS Background Size</string>
+			<key>modificationDate</key>
+			<date>2011-09-05T09:06:06Z</date>
+			<key>plainText</key>
+			<string>-webkit-background-size:  %fill:x-value%  %fill:y-value%; 
+   -moz-background-size:  %fill:x-value%  %fill:y-value%; 
+        background-size:  %fill:x-value%  %fill:y-value%;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>152AB9C5-076D-487E-90FD-C2394A090DA3</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,css-prevent</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-09-05T09:02:52Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS Border Radius Clipping</string>
+			<key>modificationDate</key>
+			<date>2011-09-05T09:03:26Z</date>
+			<key>plainText</key>
+			<string>-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; /* prevents bg from leaking outside border */</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>6E2BB530-A3BC-48B7-97C8-6736ED007E55</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,,cssreset</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-08T23:29:33Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS Reset Compressed</string>
+			<key>lastUsed</key>
+			<date>2012-11-10T23:31:43Z</date>
+			<key>modificationDate</key>
+			<date>2011-06-08T23:29:50Z</date>
+			<key>plainText</key>
+			<string>html,body,div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,address,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,var,
+b,u,i,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{background:transparent;border:0;font-size:100%;margin:0;padding:0;outline:0;vertical-align:baseline;}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block;}
+nav ul{list-style:none;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+input,select{vertical-align:middle;}
+hr{border:0;border-top:1px solid #ccc;display:block;height:1px;margin:1em 0;padding:0;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:'';content:none;}
+
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>19</integer>
+			<key>uuidString</key>
+			<string>4A325EDC-4F21-4668-AA53-44663503CF5E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,css-grad</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-20T18:26:25Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS Gradients</string>
+			<key>lastUsed</key>
+			<date>2012-08-30T23:56:07Z</date>
+			<key>modificationDate</key>
+			<date>2011-09-05T09:05:23Z</date>
+			<key>plainText</key>
+			<string>background-color: %fill:start-color%;
+background-image: -webkit-gradient(linear, left top, left bottom, from(%fill:start-color%), color-stop( 0.5, %fill:extra-color% ), to(%fill:end-color%));
+background-image: -webkit-linear-gradient(top, %fill:start-color% 0%, %fill:extra-color% 50%, %fill:end-color% 100% );
+background-image:    -moz-linear-gradient(top, %fill:start-color% 0%, %fill:extra-color% 50%, %fill:end-color% 100% );
+background-image:     -ms-linear-gradient(top, %fill:start-color% 0%, %fill:extra-color% 50%, %fill:end-color% 100% );
+background-image:      -o-linear-gradient(top, %fill:start-color% 0%, %fill:extra-color% 50%, %fill:end-color% 100% );
+background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extra-color% 50%, %fill:end-color% 100% );</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>44</integer>
+			<key>uuidString</key>
+			<string>074D1325-7CBD-4726-9C57-FFBF2F7F9A43</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,css-tran</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T16:06:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS Transition</string>
+			<key>lastUsed</key>
+			<date>2012-11-10T23:42:28Z</date>
+			<key>modificationDate</key>
+			<date>2011-09-05T09:01:08Z</date>
+			<key>plainText</key>
+			<string>-webkit-transition: %fill:property% %fill:duration%s %fill:timing function%;
+   -moz-transition: %fill:property% %fill:duration%s %fill:timing function%;
+	 -o-transition: %fill:property% %fill:duration%s %fill:timing function%;
+		transition: %fill:property% %fill:duration%s %fill:timing function%;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>30</integer>
+			<key>uuidString</key>
+			<string>FDA80298-CA9B-477D-A2B1-D034F5185434</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,nth-of-type</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T16:04:07Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>:nth-of-type</string>
+			<key>modificationDate</key>
+			<date>2011-04-19T16:04:07Z</date>
+			<key>plainText</key>
+			<string>%fill:selector%:nth-of-type(%fill:target%) {
+	%|
+	}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>CEA4F0ED-1C9D-4F09-9F77-2041DFFE9572</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,nth-child</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T16:03:20Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>:nth-child</string>
+			<key>lastUsed</key>
+			<date>2012-01-16T01:55:41Z</date>
+			<key>modificationDate</key>
+			<date>2011-04-19T16:03:20Z</date>
+			<key>plainText</key>
+			<string>%fill:selector%:nth-child(%fill:target%) {
+	%|
+	}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>FBE93918-4F6C-4266-BC9B-BFA95DE15373</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,rgba</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:54:41Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>RGBa</string>
+			<key>lastUsed</key>
+			<date>2012-11-10T23:37:28Z</date>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:56:06Z</date>
+			<key>plainText</key>
+			<string>rgba(%fill:red%, %fill:green%, %fill:blue%, %fill:alpha%)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>160</integer>
+			<key>uuidString</key>
+			<string>C74BA682-D9FB-49F4-BB48-57D2251D9B2F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,hsla</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:52:00Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>HSLa</string>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:52:00Z</date>
+			<key>plainText</key>
+			<string>hsla(%fill:Hue%, %fill:Saturation%%, %fill:Lightness%%, %fill:alpha%)</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>00568D44-7097-40B4-95E4-8DD0A4B3993E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,lchild</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:51:10Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Last Child</string>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:51:29Z</date>
+			<key>plainText</key>
+			<string>%fill:selector%:last-child {
+	%|
+	}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B4C080DB-F776-42F0-8AAB-FA8512AE624B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,fchild</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:50:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>First Child</string>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:51:08Z</date>
+			<key>plainText</key>
+			<string>%fill:selector%:first-child {
+	%|
+	}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>AC02CC65-70A7-4F52-9833-05777CDAD082</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,br-border-radius</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:48:48Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Bottom Right Border Radius</string>
+			<key>lastUsed</key>
+			<date>2011-08-20T20:13:29Z</date>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:48:48Z</date>
+			<key>plainText</key>
+			<string>-webkit-border-bottom-right-radius: %fill:amount%px;
+    -moz-border-radius-bottomright: %fill:amount%px;
+		border-bottom-right-radius: %fill:amount%px;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B8474894-74A6-4405-9EB0-A93DE8F95CCF</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,tr-border-radius</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:47:16Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Top Right Border Radius</string>
+			<key>lastUsed</key>
+			<date>2012-08-31T16:27:17Z</date>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:47:27Z</date>
+			<key>plainText</key>
+			<string>-webkit-border-top-right-radius: %fill:amount%px;
+    -moz-border-radius-topright: %fill:amount%px;
+		border-top-right-radius: %fill:amount%px;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>76E6709C-AE41-4E03-AE13-928DFE114940</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,tl-border-radius</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:46:10Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Top Left Border Radius</string>
+			<key>lastUsed</key>
+			<date>2012-09-26T18:02:00Z</date>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:46:25Z</date>
+			<key>plainText</key>
+			<string>-webkit-border-top-left-radius: %fill:amount%px;
+    -moz-border-radius-topleft: %fill:amount%px;
+		border-top-left-radius: %fill:amount%px;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>7</integer>
+			<key>uuidString</key>
+			<string>4BE73AAE-1E35-4213-83B7-1F74F372BDB4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,bl-border-radius</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:44:11Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Bottom Left Border Radius</string>
+			<key>lastUsed</key>
+			<date>2012-09-26T18:02:45Z</date>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:46:30Z</date>
+			<key>plainText</key>
+			<string>-webkit-border-bottom-left-radius: %fill:amount%px;
+    -moz-border-radius-bottomleft: %fill:amount%px;
+		border-bottom-left-radius: %fill:amount%px;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>B2B12406-21E9-4EF8-83B6-0D756F24DB67</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,box-shadow</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-04-19T15:36:00Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Box Shadow</string>
+			<key>lastUsed</key>
+			<date>2012-11-06T19:12:34Z</date>
+			<key>modificationDate</key>
+			<date>2011-04-19T15:37:37Z</date>
+			<key>plainText</key>
+			<string>-webkit-box-shadow: %fill:Color% %fill:x% %fill:y% %fill:blur%;
+   -moz-box-shadow: %fill:Color% %fill:x% %fill:y% %fill:blur%;
+		box-shadow: %fill:Color% %fill:x% %fill:y% %fill:blur%;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>44</integer>
+			<key>uuidString</key>
+			<string>5DED924A-DC4A-44C1-AC64-DD2C451EEEB0</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,border-radius</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-07-19T20:59:56Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Border Radius</string>
+			<key>lastUsed</key>
+			<date>2012-11-06T19:18:26Z</date>
+			<key>modificationDate</key>
+			<date>2011-01-07T21:41:42Z</date>
+			<key>plainText</key>
+			<string>-webkit-border-radius: %fill:radius%px;
+ -khtml-border-radius: %fill:radius%px;
+   -moz-border-radius: %fill:radius%px;
+		border-radius: %fill:radius%px;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>136</integer>
+			<key>uuidString</key>
+			<string>9EC95283-6F36-4C7E-A125-3F51A3CCCEAB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,csstemplate</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-07-19T20:13:54Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS Template</string>
+			<key>lastUsed</key>
+			<date>2012-11-11T21:27:54Z</date>
+			<key>modificationDate</key>
+			<date>2012-11-11T21:56:01Z</date>
+			<key>plainText</key>
+			<string>/*
+
+Owner: 
+Information: 
+Version: 
+Author: 
+Author Contact: 
+
+Table of Contents:
+  Normalize
+  Structure
+  Elements
+  Media Queries
+  Helper Classes
+  Overrides  
+
+*/
+
+/* Normalize
+----------------------------------------------------------- */
+
+article, aside, details, figcaption, figure, footer,
+header, hgroup, nav, section, summary { display: block; }
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+/* Base */
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@-ms-viewport { width: device-width; }
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+html, button, input, select, textarea {
+  font-family: sans-serif;
+  color: #222;
+}
+
+body {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* Typography &amp; Links */
+a {
+  color: #00e;
+  }
+
+a:visited {
+  color: #551a8b;
+  }
+
+a:hover {
+  color: #06e;
+  }
+a:focus { outline: thin dotted; }
+a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+
+blockquote { margin: 1em 40px; }
+
+dfn { font-style: italic; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  }
+
+ins {
+  background: #ff9;
+  color: #000;
+  text-decoration: none;
+  }
+
+mark {
+  background: #ff0;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+  }
+
+pre, code, kbd, samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+  }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  }
+q { quotes: none; }
+q:before, q:after {
+  content: "";
+  content: none;
+  }
+
+small { font-size: 85%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+ul, ol {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+  }
+
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+  }
+
+/* Embedded Content */ 
+img {
+  border: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+  }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; }
+
+/* Form Elements */
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+  }
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  }
+button, input { line-height: normal; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+  }
+
+button[disabled], input[disabled] { cursor: default; }
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *width: 13px;
+  *height: 13px;
+  }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  vertical-align: top;
+  }
+
+/* Tables */
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.chromeframe { background: #ccc; color: #000; margin: 0.2em 0; padding: 0.2em 0; }
+
+/* Structure
+----------------------------------------------------------- */
+
+
+
+/* Elements
+----------------------------------------------------------- */
+
+
+
+/* Media Queries
+----------------------------------------------------------- */
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+/* Helper Classes
+    - Print Media Query
+----------------------------------------------------------- */
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.ir { background-color: transparent; border: 0;color: transparent; font: 0/0 a; text-shadow: none; } /* image replacement */
+.hidden { display: none !important; visibility: hidden; } /* hide from screenreaders/browsers */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+} /* hide visually, not from screenreaders */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+} /* keep focusable via keyboard */
+.invisible { visibility: hidden; } /* hide, maintain layout */
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { *zoom: 1; }
+
+@media print {
+  * { background: transparent !important; box-shadow:none !important; color: #000 !important; text-shadow: none !important; }
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>2B8183B7-3502-4C3E-A488-591F5C6AE2EC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,nodrag</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-12-09T08:43:48Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS No Drag</string>
+			<key>modificationDate</key>
+			<date>2011-12-09T08:44:01Z</date>
+			<key>plainText</key>
+			<string>-webkit-user-drag: none;
+	   -moz-user-drag: -moz-none;
+	        user-drag: none;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>C8B81F6E-B1D9-446A-87FC-89B640230781</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,noselect</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-12-09T08:43:07Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>CSS Select None</string>
+			<key>modificationDate</key>
+			<date>2011-12-09T08:43:23Z</date>
+			<key>plainText</key>
+			<string>-webkit-user-select: none;
+	   -moz-user-select: -moz-none;
+	        user-select: none;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>8F40E9CF-D6A9-4CDC-98A0-23FDD7EC7900</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>!imp</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-05-02T20:16:48Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>!important</string>
+			<key>lastUsed</key>
+			<date>2012-11-07T18:52:09Z</date>
+			<key>modificationDate</key>
+			<date>2012-05-02T20:16:57Z</date>
+			<key>plainText</key>
+			<string>!important</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>63</integer>
+			<key>uuidString</key>
+			<string>3A7B955A-9F48-446E-9642-E4F5E2D7EEA0</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,font-face</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-02-04T05:03:10Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>@font-face</string>
+			<key>lastUsed</key>
+			<date>2011-02-04T05:06:04Z</date>
+			<key>modificationDate</key>
+			<date>2012-11-11T21:56:14Z</date>
+			<key>plainText</key>
+			<string>@font-face {
+	font-family: 'MyFontFamily';
+	src: url('%fill:fontname%.eot#') format('eot'), 
+	     url('%fill:fontname%.woff') format('woff'), 
+	     url('%fill:fontname%.ttf')  format('truetype'),
+	     url('%fill:fontname%.svg#%fill:svgFontName%') format('svg');
+	}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>BA2F5F4A-4280-4BBC-89B5-B19458761AA9</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,ff-impact</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-21T02:34:07Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Impact Font Family</string>
+			<key>lastUsed</key>
+			<date>2011-10-31T19:59:13Z</date>
+			<key>modificationDate</key>
+			<date>2009-12-21T02:34:07Z</date>
+			<key>plainText</key>
+			<string>font-family: Impact, "Arial Black", sans-serif;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>0347142B-BBC5-4FA5-B577-39667238B1BC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,ff-times</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-21T02:33:25Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Times Font Family</string>
+			<key>lastUsed</key>
+			<date>2011-08-24T21:23:30Z</date>
+			<key>modificationDate</key>
+			<date>2009-12-21T02:50:33Z</date>
+			<key>plainText</key>
+			<string>font-family: Times, "Times New Roman", serif;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>FC88614D-4D19-4F6D-BD21-F3CCF6D1C8D1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,ff-lucida</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-21T02:33:49Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Lucida Font Family</string>
+			<key>lastUsed</key>
+			<date>2012-02-23T20:31:12Z</date>
+			<key>modificationDate</key>
+			<date>2009-12-21T02:34:02Z</date>
+			<key>plainText</key>
+			<string>font-family: "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>53</integer>
+			<key>uuidString</key>
+			<string>20587A38-55C4-4FBC-9111-7EB9DBDD2D97</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,clearfix</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-21T02:35:29Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>ClearFix</string>
+			<key>lastUsed</key>
+			<date>2012-10-30T16:21:58Z</date>
+			<key>modificationDate</key>
+			<date>2011-07-19T23:07:59Z</date>
+			<key>plainText</key>
+			<string>.cf:before, .cf:after { content:""; display: block; overflow: hidden; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>56</integer>
+			<key>uuidString</key>
+			<string>756E43D0-04A9-4C44-9D44-751A07807235</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,ff-helvetica</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-21T02:34:25Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Helvetica Font Family</string>
+			<key>lastUsed</key>
+			<date>2012-11-10T23:31:53Z</date>
+			<key>modificationDate</key>
+			<date>2012-05-20T20:27:34Z</date>
+			<key>plainText</key>
+			<string>font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+font-weight: 300;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>31</integer>
+			<key>uuidString</key>
+			<string>757CA644-4BF1-462A-A15D-9EDFFD891348</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,csstitle</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-12-21T02:31:54Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Category Title</string>
+			<key>lastUsed</key>
+			<date>2012-08-29T23:11:41Z</date>
+			<key>modificationDate</key>
+			<date>2009-12-21T02:31:54Z</date>
+			<key>plainText</key>
+			<string>/* %|
+----------------------------------------------------------- */</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>49</integer>
+			<key>uuidString</key>
+			<string>1225E4B2-0D0F-4C98-AB6C-3CEE349D787E</string>
+		</dict>
+	</array>
+</dict>
+</plist>
