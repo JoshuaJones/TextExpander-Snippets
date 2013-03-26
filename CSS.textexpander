@@ -13,6 +13,32 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>,inputplaceholder</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-26T16:14:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Input Placeholder Transition Effect</string>
+			<key>modificationDate</key>
+			<date>2013-03-26T16:16:13Z</date>
+			<key>plainText</key>
+			<string>[placeholder]:focus::-webkit-input-placeholder {
+	transition: opacity 0.25s 0.5s ease;
+	opacity: 0;
+	/* text-indent: -100%; */
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>6E97F5F0-DD33-4182-B790-1B3D6A467DA2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>,border-box</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
@@ -93,7 +119,7 @@
 			<key>label</key>
 			<string>CSS Reset Compressed</string>
 			<key>lastUsed</key>
-			<date>2012-11-10T23:31:43Z</date>
+			<date>2013-03-18T18:43:55Z</date>
 			<key>modificationDate</key>
 			<date>2011-06-08T23:29:50Z</date>
 			<key>plainText</key>
@@ -127,7 +153,7 @@ q:before,q:after{content:'';content:none;}
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>19</integer>
+			<integer>30</integer>
 			<key>uuidString</key>
 			<string>4A325EDC-4F21-4668-AA53-44663503CF5E</string>
 		</dict>
@@ -143,7 +169,7 @@ q:before,q:after{content:'';content:none;}
 			<key>label</key>
 			<string>CSS Gradients</string>
 			<key>lastUsed</key>
-			<date>2012-08-30T23:56:07Z</date>
+			<date>2012-11-14T00:40:04Z</date>
 			<key>modificationDate</key>
 			<date>2011-09-05T09:05:23Z</date>
 			<key>plainText</key>
@@ -157,7 +183,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>44</integer>
+			<integer>45</integer>
 			<key>uuidString</key>
 			<string>074D1325-7CBD-4726-9C57-FFBF2F7F9A43</string>
 		</dict>
@@ -173,7 +199,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>CSS Transition</string>
 			<key>lastUsed</key>
-			<date>2012-11-10T23:42:28Z</date>
+			<date>2013-02-20T23:27:56Z</date>
 			<key>modificationDate</key>
 			<date>2011-09-05T09:01:08Z</date>
 			<key>plainText</key>
@@ -184,7 +210,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>30</integer>
+			<integer>47</integer>
 			<key>uuidString</key>
 			<string>FDA80298-CA9B-477D-A2B1-D034F5185434</string>
 		</dict>
@@ -250,7 +276,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>RGBa</string>
 			<key>lastUsed</key>
-			<date>2012-11-10T23:37:28Z</date>
+			<date>2013-03-25T19:02:21Z</date>
 			<key>modificationDate</key>
 			<date>2011-04-19T15:56:06Z</date>
 			<key>plainText</key>
@@ -258,7 +284,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>160</integer>
+			<integer>367</integer>
 			<key>uuidString</key>
 			<string>C74BA682-D9FB-49F4-BB48-57D2251D9B2F</string>
 		</dict>
@@ -344,7 +370,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>Bottom Right Border Radius</string>
 			<key>lastUsed</key>
-			<date>2011-08-20T20:13:29Z</date>
+			<date>2012-11-08T18:02:05Z</date>
 			<key>modificationDate</key>
 			<date>2011-04-19T15:48:48Z</date>
 			<key>plainText</key>
@@ -354,7 +380,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>1</integer>
 			<key>uuidString</key>
 			<string>B8474894-74A6-4405-9EB0-A93DE8F95CCF</string>
 		</dict>
@@ -370,7 +396,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>Top Right Border Radius</string>
 			<key>lastUsed</key>
-			<date>2012-08-31T16:27:17Z</date>
+			<date>2012-11-08T18:02:14Z</date>
 			<key>modificationDate</key>
 			<date>2011-04-19T15:47:27Z</date>
 			<key>plainText</key>
@@ -380,7 +406,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>5</integer>
+			<integer>6</integer>
 			<key>uuidString</key>
 			<string>76E6709C-AE41-4E03-AE13-928DFE114940</string>
 		</dict>
@@ -396,7 +422,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>Top Left Border Radius</string>
 			<key>lastUsed</key>
-			<date>2012-09-26T18:02:00Z</date>
+			<date>2012-11-13T00:43:57Z</date>
 			<key>modificationDate</key>
 			<date>2011-04-19T15:46:25Z</date>
 			<key>plainText</key>
@@ -406,7 +432,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>7</integer>
+			<integer>9</integer>
 			<key>uuidString</key>
 			<string>4BE73AAE-1E35-4213-83B7-1F74F372BDB4</string>
 		</dict>
@@ -422,7 +448,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>Bottom Left Border Radius</string>
 			<key>lastUsed</key>
-			<date>2012-09-26T18:02:45Z</date>
+			<date>2012-11-13T00:44:09Z</date>
 			<key>modificationDate</key>
 			<date>2011-04-19T15:46:30Z</date>
 			<key>plainText</key>
@@ -432,7 +458,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>3</integer>
+			<integer>5</integer>
 			<key>uuidString</key>
 			<string>B2B12406-21E9-4EF8-83B6-0D756F24DB67</string>
 		</dict>
@@ -448,7 +474,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>Box Shadow</string>
 			<key>lastUsed</key>
-			<date>2012-11-06T19:12:34Z</date>
+			<date>2012-12-05T20:48:51Z</date>
 			<key>modificationDate</key>
 			<date>2011-04-19T15:37:37Z</date>
 			<key>plainText</key>
@@ -458,7 +484,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>44</integer>
+			<integer>56</integer>
 			<key>uuidString</key>
 			<string>5DED924A-DC4A-44C1-AC64-DD2C451EEEB0</string>
 		</dict>
@@ -474,7 +500,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>Border Radius</string>
 			<key>lastUsed</key>
-			<date>2012-11-06T19:18:26Z</date>
+			<date>2013-03-01T04:15:12Z</date>
 			<key>modificationDate</key>
 			<date>2011-01-07T21:41:42Z</date>
 			<key>plainText</key>
@@ -485,7 +511,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>136</integer>
+			<integer>146</integer>
 			<key>uuidString</key>
 			<string>9EC95283-6F36-4C7E-A125-3F51A3CCCEAB</string>
 		</dict>
@@ -501,7 +527,7 @@ background-image:         linear-gradient(top, %fill:start-color% 0%, %fill:extr
 			<key>label</key>
 			<string>CSS Template</string>
 			<key>lastUsed</key>
-			<date>2012-11-11T21:27:54Z</date>
+			<date>2013-03-20T20:44:42Z</date>
 			<key>modificationDate</key>
 			<date>2012-11-11T21:56:01Z</date>
 			<key>plainText</key>
@@ -788,7 +814,7 @@ td { vertical-align: top; }
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>2</integer>
+			<integer>9</integer>
 			<key>uuidString</key>
 			<string>2B8183B7-3502-4C3E-A488-591F5C6AE2EC</string>
 		</dict>
@@ -803,6 +829,8 @@ td { vertical-align: top; }
 			<integer>0</integer>
 			<key>label</key>
 			<string>CSS No Drag</string>
+			<key>lastUsed</key>
+			<date>2012-12-06T00:42:12Z</date>
 			<key>modificationDate</key>
 			<date>2011-12-09T08:44:01Z</date>
 			<key>plainText</key>
@@ -812,7 +840,7 @@ td { vertical-align: top; }
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>3</integer>
 			<key>uuidString</key>
 			<string>C8B81F6E-B1D9-446A-87FC-89B640230781</string>
 		</dict>
@@ -852,7 +880,7 @@ td { vertical-align: top; }
 			<key>label</key>
 			<string>!important</string>
 			<key>lastUsed</key>
-			<date>2012-11-07T18:52:09Z</date>
+			<date>2013-03-20T17:36:27Z</date>
 			<key>modificationDate</key>
 			<date>2012-05-02T20:16:57Z</date>
 			<key>plainText</key>
@@ -860,7 +888,7 @@ td { vertical-align: top; }
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>63</integer>
+			<integer>78</integer>
 			<key>uuidString</key>
 			<string>3A7B955A-9F48-446E-9642-E4F5E2D7EEA0</string>
 		</dict>
@@ -978,7 +1006,7 @@ td { vertical-align: top; }
 			<key>label</key>
 			<string>ClearFix</string>
 			<key>lastUsed</key>
-			<date>2012-10-30T16:21:58Z</date>
+			<date>2013-03-22T23:48:55Z</date>
 			<key>modificationDate</key>
 			<date>2011-07-19T23:07:59Z</date>
 			<key>plainText</key>
@@ -988,7 +1016,7 @@ td { vertical-align: top; }
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>56</integer>
+			<integer>63</integer>
 			<key>uuidString</key>
 			<string>756E43D0-04A9-4C44-9D44-751A07807235</string>
 		</dict>
@@ -1004,7 +1032,7 @@ td { vertical-align: top; }
 			<key>label</key>
 			<string>Helvetica Font Family</string>
 			<key>lastUsed</key>
-			<date>2012-11-10T23:31:53Z</date>
+			<date>2013-01-02T20:24:51Z</date>
 			<key>modificationDate</key>
 			<date>2012-05-20T20:27:34Z</date>
 			<key>plainText</key>
@@ -1013,7 +1041,7 @@ font-weight: 300;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>31</integer>
+			<integer>44</integer>
 			<key>uuidString</key>
 			<string>757CA644-4BF1-462A-A15D-9EDFFD891348</string>
 		</dict>
@@ -1029,7 +1057,7 @@ font-weight: 300;</string>
 			<key>label</key>
 			<string>Category Title</string>
 			<key>lastUsed</key>
-			<date>2012-08-29T23:11:41Z</date>
+			<date>2012-11-16T19:00:39Z</date>
 			<key>modificationDate</key>
 			<date>2009-12-21T02:31:54Z</date>
 			<key>plainText</key>
@@ -1038,7 +1066,7 @@ font-weight: 300;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>49</integer>
+			<integer>51</integer>
 			<key>uuidString</key>
 			<string>1225E4B2-0D0F-4C98-AB6C-3CEE349D787E</string>
 		</dict>
