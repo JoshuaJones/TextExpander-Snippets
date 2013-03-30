@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>JavaScript</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>,congroup</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T21:00:02Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.group()</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T21:00:02Z</date>
+			<key>plainText</key>
+			<string>console.group("%|");
+// ...
+console.groupEnd();</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>080EA584-C95E-437E-A83B-76B752F64A2A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,contime</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:58:53Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.time()</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T21:00:30Z</date>
+			<key>plainText</key>
+			<string>console.time("%filltext:name=label%");
+// … %|
+console.timeEnd("%filltext:name=label%");</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D002082B-7286-47C5-809D-3B466D5FA086</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,conassert</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:58:31Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.assert()</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T20:58:43Z</date>
+			<key>plainText</key>
+			<string>console.assert(condition, "");</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>82698DED-95EB-4D72-A760-DB16D7269610</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,conerror</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:57:40Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.error()</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T20:57:40Z</date>
+			<key>plainText</key>
+			<string>console.error("%|");</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>E8A1FA7F-03CA-4A48-BD2A-87DE80869253</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,conwarn</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:57:22Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.warn()</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T20:58:12Z</date>
+			<key>plainText</key>
+			<string>console.warn("%|");</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>DD4C2A22-D5DD-4336-80BF-4101B6552405</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,Oconlog</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:56:51Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.log() JS object</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T20:58:23Z</date>
+			<key>plainText</key>
+			<string>console.log("%O", %|);</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>2DA72793-3FB1-4C81-834F-E739117D1E11</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,oconlog</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:56:06Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.log() DOM element</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T20:58:26Z</date>
+			<key>plainText</key>
+			<string>console.log("%o", %|);</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>06FC6112-906D-4B9A-8D7E-688A3EA04E6E</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,cconlog</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:55:30Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.log() Styled</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T20:55:30Z</date>
+			<key>plainText</key>
+			<string>console.log("%c%|", "color: blue;");</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>AECD1D5C-4895-4D9B-AE38-CCB27FE713E8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,conlog</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-03-30T20:55:06Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>console.log()</string>
+			<key>modificationDate</key>
+			<date>2013-03-30T20:55:27Z</date>
+			<key>plainText</key>
+			<string>console.log("%|");</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A72DBF08-9D2D-403C-B788-55E6E9A21107</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,eprevent</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-02-19T15:31:39Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>PreventDefault</string>
+			<key>lastUsed</key>
+			<date>2013-02-19T22:45:30Z</date>
+			<key>modificationDate</key>
+			<date>2013-02-19T15:31:51Z</date>
+			<key>plainText</key>
+			<string>e.preventDefault();</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>9522592E-04B9-4C4B-B6E9-0C0979535323</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,self</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-02-19T15:31:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Self var</string>
+			<key>lastUsed</key>
+			<date>2013-02-19T22:25:00Z</date>
+			<key>modificationDate</key>
+			<date>2013-03-30T21:01:30Z</date>
+			<key>plainText</key>
+			<string>var self = %|</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>1</integer>
+			<key>uuidString</key>
+			<string>BA92DD70-64BA-47E4-8BE5-BC194AC8B55B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,objtemplate</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-02-19T15:30:32Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Object Template</string>
+			<key>lastUsed</key>
+			<date>2013-03-22T18:55:30Z</date>
+			<key>modificationDate</key>
+			<date>2013-02-19T15:32:58Z</date>
+			<key>plainText</key>
+			<string>var obj = {
+  init: function( config ) {
+    this.config = config;
+
+    this.cache();
+    this.bindEvents();
+
+    //...
+  },
+
+  cache: function() {
+    // this.container = $('div');
+  },
+
+  bindEvents: function() {
+    // on click/change/etc methods
+  }
+}
+
+// obj.init({
+//  setting: $('div');
+// });</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>5</integer>
+			<key>uuidString</key>
+			<string>4F7B1F54-75C4-4BE7-A0F7-430B4C444EF8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,usestrict</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-02-10T23:28:24Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Use Strict</string>
+			<key>modificationDate</key>
+			<date>2013-02-10T23:29:16Z</date>
+			<key>plainText</key>
+			<string>"use strict";</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>56215D41-1E2B-4693-B235-5DB4656AE3A3</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,docready</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-06-10T03:55:51Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2013-03-22T22:12:54Z</date>
+			<key>modificationDate</key>
+			<date>2010-06-10T03:56:15Z</date>
+			<key>plainText</key>
+			<string>$(document).ready(function(){
+	%|
+});</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>55</integer>
+			<key>uuidString</key>
+			<string>344F334A-135A-4CFC-A599-6DB8486C23CE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,siaf</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-04-29T20:24:58Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>selfInvokingFunction</string>
+			<key>lastUsed</key>
+			<date>2013-02-19T21:57:39Z</date>
+			<key>modificationDate</key>
+			<date>2012-05-08T20:17:02Z</date>
+			<key>plainText</key>
+			<string>(function() {
+  
+})();</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>13</integer>
+			<key>uuidString</key>
+			<string>A890DC7E-FA65-4203-8E0B-13FF4293B5CB</string>
+		</dict>
+	</array>
+</dict>
+</plist>
