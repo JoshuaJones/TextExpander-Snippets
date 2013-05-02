@@ -13,6 +13,32 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>,rem</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-04-18T01:44:39Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>SASS Rem Mixin</string>
+			<key>modificationDate</key>
+			<date>2013-04-18T01:45:37Z</date>
+			<key>plainText</key>
+			<string>@mixin font-size($sizeValue: 1.6){
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+// body needs font-size: 62.5% for Base 10</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>CFFBB8B0-EDF0-433C-93D4-B103DC23311B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>,sasstype</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
@@ -22,8 +48,10 @@
 			<integer>0</integer>
 			<key>label</key>
 			<string>SASS Type</string>
+			<key>lastUsed</key>
+			<date>2013-04-20T20:33:10Z</date>
 			<key>modificationDate</key>
-			<date>2012-10-28T20:57:45Z</date>
+			<date>2013-05-02T22:07:00Z</date>
 			<key>plainText</key>
 			<string>// Type
 
@@ -87,6 +115,15 @@ nav ul, nav ol {
   margin: 0;
   padding: 0;
   } 
+.unstyled {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+.inline-list {
+  @extend .unstyled;
+  @include inline-block-list();
+  }
 
 
 // Misc
@@ -151,7 +188,7 @@ sub { bottom: -0.25em; }</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>8</integer>
 			<key>uuidString</key>
 			<string>72BF922A-4BE4-44FD-927D-D72CD7621692</string>
 		</dict>
@@ -166,8 +203,10 @@ sub { bottom: -0.25em; }</string>
 			<integer>0</integer>
 			<key>label</key>
 			<string>SASS Variables</string>
+			<key>lastUsed</key>
+			<date>2013-04-20T20:29:20Z</date>
 			<key>modificationDate</key>
-			<date>2012-10-28T20:52:47Z</date>
+			<date>2013-05-02T22:08:00Z</date>
 			<key>plainText</key>
 			<string>// Variables
 
@@ -181,13 +220,17 @@ $grayLight:             #999;
 $grayLighter:           #eee;
 $white:                 #fff;
 
+// Paths
+// --------------------------
+$imgsPath: "/images";
+
 // Typography
 // --------------------------
 $sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
-$baseFontSize:          14px;
+$base-font-size:          14px;
 $baseFontFamily:        $sansFontFamily;
 $baseLineHeight:        20px;
 $altFontFamily:         $serifFontFamily;
@@ -198,7 +241,7 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>7</integer>
 			<key>uuidString</key>
 			<string>315EEB07-62CB-4698-ABD7-5373D7504B77</string>
 		</dict>
@@ -213,8 +256,10 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 			<integer>0</integer>
 			<key>label</key>
 			<string>SASS Mixins</string>
+			<key>lastUsed</key>
+			<date>2013-04-20T20:29:34Z</date>
 			<key>modificationDate</key>
-			<date>2012-10-28T20:48:44Z</date>
+			<date>2013-05-02T22:08:42Z</date>
 			<key>plainText</key>
 			<string>// Mixins
 @mixin retinaBackground($file, $width, $height, $type: png) {
@@ -231,11 +276,51 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 @mixin size($width, $height) {
   height: $height;
   width: $width;  
-}</string>
+}
+
+@mixin gradientText($color1, $color2) {
+	color: mix($color1, $color2);
+	background-color: mix($color1, $color2);
+	@include background-image(linear-gradient($color1, $color2));
+	@include background-clip(text);
+	-webkit-text-fill-color: transparent;
+}
+
+@mixin spriteElement($width, $height, $pos) {
+  background-position: $pos;
+	height: $height;
+  width: $width;
+}
+
+@mixin triangle ($direction, $color, $height, $width) {
+	width: 0; 
+	height: 0;
+	@if $direction == 'bottom' {
+  	border-top: $height solid $color; 
+  	border-left: $width solid transparent; 
+  	border-right: $width solid transparent; 
+	}
+	@if $direction == 'left' {
+  	border-top: $height solid transparent; 
+  	border-bottom: $height solid transparent;
+  	border-right: $width solid $color;
+	}
+	@if $direction == 'right' {
+  	border-top: $height solid transparent; 
+  	border-bottom: $height solid transparent;
+  	border-left: $width solid $color;
+	}
+	@if $direction == 'top' {
+  	border-bottom: $height solid $color; 
+  	border-left: $width solid transparent; 
+  	border-right: $width solid transparent; 
+	}
+}
+</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>6</integer>
 			<key>uuidString</key>
 			<string>D0CCE58C-87CE-456C-8671-C26323A5ACAB</string>
 		</dict>
@@ -250,8 +335,10 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 			<integer>0</integer>
 			<key>label</key>
 			<string>SASS Main</string>
+			<key>lastUsed</key>
+			<date>2013-04-20T20:25:40Z</date>
 			<key>modificationDate</key>
-			<date>2012-10-28T20:47:35Z</date>
+			<date>2013-05-02T22:05:12Z</date>
 			<key>plainText</key>
 			<string>//
 //  Project Name
@@ -264,6 +351,9 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 @import "compass/typography";
 @import "compass/utilities";
 
+// Plugins
+@import "susy";
+
 // SASS
 @import "variables";
 @import "mixins";
@@ -271,13 +361,18 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 // Template
 @import "layout";
 @import "typography";
-@import "style";
+@import "global";
+
+// Pages
+@import "pages/front";
+
+// Responsive
 @import "responsive";
 </string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>8</integer>
 			<key>uuidString</key>
 			<string>880A8A1A-2D3A-42FE-B32D-24041CBBB0BF</string>
 		</dict>
@@ -292,8 +387,10 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 			<integer>0</integer>
 			<key>label</key>
 			<string>SASS Layout</string>
+			<key>lastUsed</key>
+			<date>2013-04-20T20:29:48Z</date>
 			<key>modificationDate</key>
-			<date>2012-11-07T21:54:25Z</date>
+			<date>2013-05-02T22:09:02Z</date>
 			<key>plainText</key>
 			<string>// Normalize &amp; Layout
 article, aside, details, figcaption, figure, footer,
@@ -314,9 +411,6 @@ html {
   }
 
 @-ms-viewport { width: device-width; }
-@-webkit-viewport { width: device-width; }
-@-moz-viewport { width: device-width; }
-@-o-viewport { width: device-width; }
 @viewport { width: device-width; }
 
 html, button, input, select, textarea {
@@ -396,11 +490,17 @@ td { vertical-align: top; }
 
 .chromeframe { background: #ccc; color: #000; margin: 0.2em 0; padding: 0.2em 0; }
 
-// Structure</string>
+// Structure
+// Susy Structure
+// $base-font-size: 15px;
+// $total-columns: 12;
+// $column-width: 60;
+// $gutter-width: 10px;
+// $grid-padding: 10px;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>7</integer>
 			<key>uuidString</key>
 			<string>B7E55A29-5AD2-4459-B20E-F9BF4EAFA54D</string>
 		</dict>
