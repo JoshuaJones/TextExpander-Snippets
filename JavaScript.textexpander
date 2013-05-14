@@ -13,6 +13,30 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>,jsrect</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-05-14T16:41:00Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>lastUsed</key>
+			<date>2013-05-14T16:46:36Z</date>
+			<key>modificationDate</key>
+			<date>2013-05-14T16:46:20Z</date>
+			<key>plainText</key>
+			<string>var %filltext:name=elRect% = document.querySelector('%|').getBoundingClientRect();</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>650178F4-D28D-464B-B388-65834F6A4BCB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>,jshintrc</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
@@ -854,7 +878,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>Object Template</string>
 			<key>lastUsed</key>
-			<date>2013-05-08T21:33:57Z</date>
+			<date>2013-05-13T17:02:12Z</date>
 			<key>modificationDate</key>
 			<date>2013-02-19T15:32:58Z</date>
 			<key>plainText</key>
