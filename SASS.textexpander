@@ -23,11 +23,11 @@
 			<key>label</key>
 			<string>SASS Rem Mixin</string>
 			<key>modificationDate</key>
-			<date>2013-04-18T01:45:37Z</date>
+			<date>2013-07-31T22:57:04Z</date>
 			<key>plainText</key>
-			<string>@mixin font-size($sizeValue: 1.6){
-  font-size: ($sizeValue * 10) + px;
-  font-size: $sizeValue + rem;
+			<string>@mixin rem($font-size, $base-size: 100) {
+  font-size: $font-size + px;
+  font-size: ($font-size / $base-size * 100 / 16) + rem;
 }
 // body needs font-size: 62.5% for Base 10</string>
 			<key>snippetType</key>
@@ -51,52 +51,57 @@
 			<key>lastUsed</key>
 			<date>2013-04-20T20:33:10Z</date>
 			<key>modificationDate</key>
-			<date>2013-05-02T22:07:00Z</date>
+			<date>2013-07-31T23:05:20Z</date>
 			<key>plainText</key>
 			<string>// Type
 
 // Headings
 // --------------------------
 h1, h2, h3, h4, h5, h6 {
-  margin: ($baseLineHeight / 2) 0;
-  font-family: $headingsFontFamily;
-  font-weight: $headingsFontWeight;
+  color: inherit;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
   line-height: 1;
-  color: $headingsColor;
-  text-rendering: optimizelegibility; // Fix the character spacing for headings
+  margin: ($base-line-height / 2) 0;
+  text-rendering: optimizelegibility;
   small {
+    color: $grayLight;
     font-weight: normal;
     line-height: 1;
-    color: $grayLight;
   }
 }
-h1 { font-size: 36px; line-height: 40px; }
-h2 { font-size: 30px; line-height: 40px; }
-h3 { font-size: 24px; line-height: 40px; }
-h4 { font-size: 18px; line-height: 20px; }
-h5 { font-size: 14px; line-height: 20px; }
-h6 { font-size: 12px; line-height: 20px; }
-
-h1 small { font-size: 24px; }
-h2 small { font-size: 18px; }
-h3 small { font-size: 14px; }
-h4 small { font-size: 14px; }
+h1, h2, h3 { line-height: 40px; }
+h4, h5, h6 { line-height: 20px; }
+h1 {
+  font-size: 36px;
+  small { font-size: 24px; }
+}
+h2 {
+  font-size: 30px;
+  small { font-size: 18px; }
+}
+h3 {
+  font-size: 24px;
+  small { font-size: 14px; }
+}
+h4 {
+  font-size: 18px;
+  small { font-size: 14px; }
+}
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
 
 // Links
 // --------------------------
 
-a {
-  color: #00e;
+a, a:visited {
+  color: $defaultLinkColor;
   @include transition(color 0.25s ease);
-  }
-
-a:visited {
-  color: #551a8b;
-  }
+}
 
 a:hover {
-  color: #06e;
-  }
+  color: darken($defaultLinkColor, 15%);
+}
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
@@ -106,25 +111,24 @@ a:hover, a:active { outline: 0; }
 ul, ol {
   margin: 1em 0;
   padding: 0 0 0 40px;
-  }
+}
 
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol {
-  list-style: none;
-  list-style-image: none;
   margin: 0;
   padding: 0;
-  } 
+  list-style: none;
+  list-style-image: none;
+}
 .unstyled {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  }
+}
 .inline-list {
   @extend .unstyled;
   @include inline-block-list();
-  }
-
+}
 
 // Misc
 // --------------------------
@@ -143,37 +147,37 @@ hr {
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
-  }
+}
 
 ins {
   background: #ff9;
   color: #000;
   text-decoration: none;
-  }
+}
 
 mark {
   background: #ff0;
   color: #000;
   font-style: italic;
   font-weight: bold;
-  }
+}
 
 pre, code, kbd, samp {
   font-family: monospace, serif;
   _font-family: 'courier new', monospace;
   font-size: 1em;
-  }
+}
 
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
-  }
+}
 q { quotes: none; }
 q:before, q:after {
   content: "";
   content: none;
-  }
+}
 
 small { font-size: 85%; }
 
@@ -182,7 +186,7 @@ sub, sup {
   line-height: 0;
   position: relative;
   vertical-align: baseline;
-  }
+}
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }</string>
 			<key>snippetType</key>
@@ -206,7 +210,7 @@ sub { bottom: -0.25em; }</string>
 			<key>lastUsed</key>
 			<date>2013-04-20T20:29:20Z</date>
 			<key>modificationDate</key>
-			<date>2013-05-02T22:08:00Z</date>
+			<date>2013-07-31T23:00:05Z</date>
 			<key>plainText</key>
 			<string>// Variables
 
@@ -226,18 +230,17 @@ $imgsPath: "/images";
 
 // Typography
 // --------------------------
-$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
-$serifFontFamily:       Georgia, "Times New Roman", Times, serif;
-$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
+$sans-font-family:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif-font-family:       Georgia, "Times New Roman", Times, serif;
+$mono-font-family:        Monaco, Menlo, Consolas, "Courier New", monospace;
+$alt-font-family:         $serif-font-family;
 
 $base-font-size:          14px;
-$baseFontFamily:        $sansFontFamily;
-$baseLineHeight:        20px;
-$altFontFamily:         $serifFontFamily;
+$base-font-family:        $sans-font-family;
+$base-line-height:        20px;
 
-$headingsFontFamily:    inherit; // empty to use BS default, $baseFontFamily
-$headingsFontWeight:    bold;    // instead of browser default, bold
-$headingsColor:         inherit; // empty to use BS default, @textColor</string>
+$headings-font-family:    sans-serif;
+$headings-font-weight:    700;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -257,9 +260,9 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 			<key>label</key>
 			<string>SASS Mixins</string>
 			<key>lastUsed</key>
-			<date>2013-04-20T20:29:34Z</date>
+			<date>2013-05-02T22:10:03Z</date>
 			<key>modificationDate</key>
-			<date>2013-05-02T22:08:42Z</date>
+			<date>2013-07-31T23:06:57Z</date>
 			<key>plainText</key>
 			<string>// Mixins
 @mixin retinaBackground($file, $width, $height, $type: png) {
@@ -273,50 +276,59 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
   }
 }
 
+@mixin rem($font-size, $base-size: 100) {
+  font-size: $font-size + px;
+  font-size: ($font-size / $base-size * 100 / 16) + rem;
+}
+
 @mixin size($width, $height) {
   height: $height;
   width: $width;  
 }
 
-@mixin gradientText($color1, $color2) {
-	color: mix($color1, $color2);
-	background-color: mix($color1, $color2);
-	@include background-image(linear-gradient($color1, $color2));
-	@include background-clip(text);
-	-webkit-text-fill-color: transparent;
-}
-
 @mixin spriteElement($width, $height, $pos) {
   background-position: $pos;
-	height: $height;
+  height: $height;
   width: $width;
 }
 
-@mixin triangle ($direction, $color, $height, $width) {
-	width: 0; 
-	height: 0;
-	@if $direction == 'bottom' {
-  	border-top: $height solid $color; 
-  	border-left: $width solid transparent; 
-  	border-right: $width solid transparent; 
-	}
-	@if $direction == 'left' {
-  	border-top: $height solid transparent; 
-  	border-bottom: $height solid transparent;
-  	border-right: $width solid $color;
-	}
-	@if $direction == 'right' {
-  	border-top: $height solid transparent; 
-  	border-bottom: $height solid transparent;
-  	border-left: $width solid $color;
-	}
-	@if $direction == 'top' {
-  	border-bottom: $height solid $color; 
-  	border-left: $width solid transparent; 
-  	border-right: $width solid transparent; 
-	}
+@mixin animation($arguements) {
+  -webkit-animation: $arguements;
+     -moz-animation: $arguements;
+      -ms-animation: $arguements;
+       -o-animation: $arguements;
+          animation: $arguements;
+-webkit-animation-fill-mode: both;
+   -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+     -o-animation-fill-mode: both;
+        animation-fill-mode: both;
 }
-</string>
+
+@mixin triangle ($direction, $color, $height, $width) {
+  width: 0; 
+  height: 0;
+  @if $direction == 'bottom' {
+    border-top: $height solid $color; 
+    border-left: $width solid transparent; 
+    border-right: $width solid transparent; 
+  }
+  @if $direction == 'left' {
+    border-top: $height solid transparent; 
+    border-bottom: $height solid transparent;
+    border-right: $width solid $color;
+  }
+  @if $direction == 'right' {
+    border-top: $height solid transparent; 
+    border-bottom: $height solid transparent;
+    border-left: $width solid $color;
+  }
+  @if $direction == 'top' {
+    border-bottom: $height solid $color; 
+    border-left: $width solid transparent; 
+    border-right: $width solid transparent; 
+  }
+}</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -338,7 +350,7 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 			<key>lastUsed</key>
 			<date>2013-04-20T20:25:40Z</date>
 			<key>modificationDate</key>
-			<date>2013-05-02T22:05:12Z</date>
+			<date>2013-07-31T22:56:39Z</date>
 			<key>plainText</key>
 			<string>//
 //  Project Name
@@ -365,9 +377,6 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 
 // Pages
 @import "pages/front";
-
-// Responsive
-@import "responsive";
 </string>
 			<key>snippetType</key>
 			<integer>0</integer>
@@ -388,9 +397,9 @@ $headingsColor:         inherit; // empty to use BS default, @textColor</string>
 			<key>label</key>
 			<string>SASS Layout</string>
 			<key>lastUsed</key>
-			<date>2013-04-20T20:29:48Z</date>
+			<date>2013-05-02T22:10:53Z</date>
 			<key>modificationDate</key>
-			<date>2013-05-02T22:09:02Z</date>
+			<date>2013-07-31T23:08:31Z</date>
 			<key>plainText</key>
 			<string>// Normalize &amp; Layout
 article, aside, details, figcaption, figure, footer,
@@ -399,7 +408,7 @@ audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
-  }
+}
 audio:not([controls]) { display: none; }
 [hidden] { display: none; }
 
@@ -408,7 +417,7 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  }
+}
 
 @-ms-viewport { width: device-width; }
 @viewport { width: device-width; }
@@ -416,29 +425,30 @@ html {
 html, button, input, select, textarea {
   font-family: sans-serif;
   color: #222;
-  }
+}
 
 body {
   margin: 0;
   font-size: 1em;
   line-height: 1.4;
-  }
+}
 
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
-  }
+}
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
-  }
+}
 
 /* Embedded Content */ 
 img {
   border: 0;
+  max-width: 100%;
   vertical-align: middle;
   -ms-interpolation-mode: bicubic;
-  }
+}
 
 svg:not(:root) { overflow: hidden; }
 
@@ -453,21 +463,22 @@ legend {
   padding: 0;
   white-space: normal;
   *margin-left: -7px;
-  }
+}
 
 button, input, select, textarea {
   font-size: 100%;
   margin: 0;
   vertical-align: baseline;
   *vertical-align: middle;
-  }
+  @include box-sizing(border-box);
+}
 button, input { line-height: normal; }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   cursor: pointer;
   -webkit-appearance: button;
   *overflow: visible;
-  }
+}
 
 button[disabled], input[disabled] { cursor: default; }
 input[type="checkbox"], input[type="radio"] {
@@ -475,14 +486,14 @@ input[type="checkbox"], input[type="radio"] {
   padding: 0;
   *width: 13px;
   *height: 13px;
-  }
+}
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 
 textarea {
   overflow: auto;
   resize: vertical;
   vertical-align: top;
-  }
+}
 
 /* Tables */
 table { border-collapse: collapse; border-spacing: 0; }
