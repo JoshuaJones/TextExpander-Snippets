@@ -13,6 +13,208 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>,cachedajax</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-08-09T17:29:20Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Cached Ajax</string>
+			<key>modificationDate</key>
+			<date>2013-08-09T17:29:20Z</date>
+			<key>plainText</key>
+			<string>var ajaxCache = {};
+
+$('#ajaxForm').on('submit', function(e) {
+  var key = $('#field').val(); // get a key to store/cache for lookup
+
+  if ( !ajaxCache[key] ) {
+    ajaxCache[key] = $.ajax({
+      url: 'http://',
+      dataType: 'jsonp',
+      data: {},
+      timeout: 15000
+    });
+  }
+  ajaxCache[key].done().fail().always();
+
+  e.preventDefault();
+});</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>86EF88FB-1AF0-4A89-86B0-AB9BCD74C03F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,mergearr</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-08-09T17:14:34Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Merge Arrays</string>
+			<key>modificationDate</key>
+			<date>2013-08-09T17:14:34Z</date>
+			<key>plainText</key>
+			<string>Array.prototype.push.apply(%filltext:name=Starting Array%, %filltext:name=Added Array%);</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>B3CA58F9-2E1E-43FF-A5A7-C25CCA84E585</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,keycheck</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-08-09T17:09:36Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Key Check</string>
+			<key>modificationDate</key>
+			<date>2013-08-09T17:10:30Z</date>
+			<key>plainText</key>
+			<string>// Better feature detection, no mem leak
+if("%filltext:name=Feature%" in navigator) {
+    %|
+}
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>555CAB89-4565-4FB7-9D17-0DA205E282BE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,jslightselector</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-08-03T22:54:20Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Lightweight Selector</string>
+			<key>modificationDate</key>
+			<date>2013-08-03T22:54:43Z</date>
+			<key>plainText</key>
+			<string>window.$ = function(selector) {
+  return document.querySelector(selector);
+};
+
+window.$$ = function(selector) {
+  var items = {},
+  results = [],
+  length = 0,
+  i = 0;
+
+  // this doesn't work on IE 8- and Blackberry Browser
+  results = Array.prototype.slice.call(document.querySelectorAll(selector));
+  length = results.length;
+
+  // add the results to the items object
+  for ( ; i &lt; length; ) {
+    items[i] = results[i];
+    i++;
+  }
+  items.length = length;
+
+  // add an 'each' method to the items
+  items.each = function(callback) {
+    var i = 0;
+    for ( ; i &lt; length; ) {
+      callback.call(items[i]);
+      i++;
+    }
+  }
+
+  return items;
+};</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>2EE63ED2-6949-44D0-90CA-FD9B2A83D4B9</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,jstypeof</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-06-27T22:00:34Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>typeOf</string>
+			<key>modificationDate</key>
+			<date>2013-06-27T22:00:45Z</date>
+			<key>plainText</key>
+			<string>function typeOf(value) {
+    var s = typeof value;
+    if (s === 'object') {
+        if (value) {
+            if (value instanceof Array) {
+                s = 'array';
+            }
+        } else {
+            s = 'null';
+        }
+    }
+    return s;
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>36543182-D0A5-4CD7-93DA-528E03CC325A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,jsmultiline</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-06-10T08:41:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>MultiLine Strings</string>
+			<key>modificationDate</key>
+			<date>2013-06-10T08:41:31Z</date>
+			<key>plainText</key>
+			<string>var html = (function () {/*
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;body&gt;
+      &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;        
+*/}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D1D56288-B0CD-4372-8E6D-EC9EF6D1EFF4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>,jsrect</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
@@ -618,7 +820,7 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<key>label</key>
 			<string>console.group()</string>
 			<key>lastUsed</key>
-			<date>2013-05-09T16:20:30Z</date>
+			<date>2013-07-31T18:23:02Z</date>
 			<key>modificationDate</key>
 			<date>2013-03-30T21:00:02Z</date>
 			<key>plainText</key>
@@ -734,7 +936,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>console.log() JS object</string>
 			<key>lastUsed</key>
-			<date>2013-05-08T20:59:32Z</date>
+			<date>2013-06-25T02:24:32Z</date>
 			<key>modificationDate</key>
 			<date>2013-03-30T20:58:23Z</date>
 			<key>plainText</key>
@@ -830,7 +1032,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>PreventDefault</string>
 			<key>lastUsed</key>
-			<date>2013-02-19T22:45:30Z</date>
+			<date>2013-08-09T17:31:49Z</date>
 			<key>modificationDate</key>
 			<date>2013-02-19T15:31:51Z</date>
 			<key>plainText</key>
@@ -878,7 +1080,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>Object Template</string>
 			<key>lastUsed</key>
-			<date>2013-05-13T17:02:12Z</date>
+			<date>2013-08-03T20:19:11Z</date>
 			<key>modificationDate</key>
 			<date>2013-02-19T15:32:58Z</date>
 			<key>plainText</key>
@@ -945,7 +1147,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2013-03-22T22:12:54Z</date>
+			<date>2013-08-03T20:36:16Z</date>
 			<key>modificationDate</key>
 			<date>2010-06-10T03:56:15Z</date>
 			<key>plainText</key>
@@ -971,7 +1173,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>selfInvokingFunction</string>
 			<key>lastUsed</key>
-			<date>2013-02-19T21:57:39Z</date>
+			<date>2013-08-08T18:40:14Z</date>
 			<key>modificationDate</key>
 			<date>2012-05-08T20:17:02Z</date>
 			<key>plainText</key>
