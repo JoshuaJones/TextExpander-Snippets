@@ -13,7 +13,90 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
-			<string>,cachedajax</string>
+			<string>,jsmethod</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-11-14T22:02:34Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>JS Method</string>
+			<key>lastUsed</key>
+			<date>2013-11-14T22:02:56Z</date>
+			<key>modificationDate</key>
+			<date>2013-11-14T22:02:44Z</date>
+			<key>plainText</key>
+			<string>%filltext:name=Method%: function (%filltext:name=Args%) {
+  %|
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>82C8FB4A-D854-4C9D-B31F-07A2F33C7F2D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,jsaddcssrule</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-12T21:29:31Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2013-09-12T21:30:32Z</date>
+			<key>plainText</key>
+			<string>function addCssRule(sheet, selector, rules, index) {
+  if(sheet.insertRule) {
+    sheet.insertRule(selector + "{" + rules + "}", index);
+  }
+  else {
+    sheet.addRule(selector, rules, index);
+  }
+}
+
+// addCssRule(document.styleSheets[0], '', '');</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>E4D8D038-5DC6-45EB-A52C-AC926FD3214F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,jsevtdel</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-09-12T21:19:49Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Event Delegation</string>
+			<key>modificationDate</key>
+			<date>2013-09-12T21:20:10Z</date>
+			<key>plainText</key>
+			<string>el.addEventListener("click",function(e) {
+  if(e.target &amp;&amp; e.target.nodeName == "%|") {
+    // ...
+  }
+});</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>E86E58EF-2226-420E-8DE8-FD41A549E024</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,jsajaxcache</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
 			<key>creationDate</key>
@@ -21,9 +104,9 @@
 			<key>flags</key>
 			<integer>0</integer>
 			<key>label</key>
-			<string>Cached Ajax</string>
+			<string>jQuery Ajax Cache</string>
 			<key>modificationDate</key>
-			<date>2013-08-09T17:29:20Z</date>
+			<date>2013-11-14T22:06:03Z</date>
 			<key>plainText</key>
 			<string>var ajaxCache = {};
 
@@ -820,17 +903,17 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<key>label</key>
 			<string>console.group()</string>
 			<key>lastUsed</key>
-			<date>2013-07-31T18:23:02Z</date>
+			<date>2013-10-08T16:56:46Z</date>
 			<key>modificationDate</key>
-			<date>2013-03-30T21:00:02Z</date>
+			<date>2013-09-06T17:20:46Z</date>
 			<key>plainText</key>
-			<string>console.group("%|");
+			<string>console.group('%|');
 // ...
 console.groupEnd();</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>11</integer>
 			<key>uuidString</key>
 			<string>080EA584-C95E-437E-A83B-76B752F64A2A</string>
 		</dict>
@@ -846,11 +929,11 @@ console.groupEnd();</string>
 			<key>label</key>
 			<string>console.time()</string>
 			<key>modificationDate</key>
-			<date>2013-03-30T21:00:30Z</date>
+			<date>2013-09-06T17:20:42Z</date>
 			<key>plainText</key>
-			<string>console.time("%filltext:name=label%");
+			<string>console.time('%filltext:name=label%');
 // … %|
-console.timeEnd("%filltext:name=label%");</string>
+console.timeEnd('%filltext:name=label%');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -870,9 +953,9 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>console.assert()</string>
 			<key>modificationDate</key>
-			<date>2013-03-30T20:58:43Z</date>
+			<date>2013-09-06T17:20:31Z</date>
 			<key>plainText</key>
-			<string>console.assert(condition, "");</string>
+			<string>console.assert(condition, '');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -892,9 +975,9 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>console.error()</string>
 			<key>modificationDate</key>
-			<date>2013-03-30T20:57:40Z</date>
+			<date>2013-09-06T17:20:27Z</date>
 			<key>plainText</key>
-			<string>console.error("%|");</string>
+			<string>console.error('%|');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -914,9 +997,9 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>console.warn()</string>
 			<key>modificationDate</key>
-			<date>2013-03-30T20:58:12Z</date>
+			<date>2013-09-06T17:20:23Z</date>
 			<key>plainText</key>
-			<string>console.warn("%|");</string>
+			<string>console.warn('%|');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -936,11 +1019,11 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>console.log() JS object</string>
 			<key>lastUsed</key>
-			<date>2013-06-25T02:24:32Z</date>
+			<date>2013-11-14T17:43:51Z</date>
 			<key>modificationDate</key>
-			<date>2013-03-30T20:58:23Z</date>
+			<date>2013-09-06T17:20:19Z</date>
 			<key>plainText</key>
-			<string>console.log("%O", %|);</string>
+			<string>console.log('%O', %|);</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -962,9 +1045,9 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>lastUsed</key>
 			<date>2013-04-11T20:22:10Z</date>
 			<key>modificationDate</key>
-			<date>2013-03-30T20:58:26Z</date>
+			<date>2013-09-06T17:20:14Z</date>
 			<key>plainText</key>
-			<string>console.log("%o", %|);</string>
+			<string>console.log('%o', %|);</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -986,9 +1069,9 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>lastUsed</key>
 			<date>2013-05-09T16:20:47Z</date>
 			<key>modificationDate</key>
-			<date>2013-03-30T20:55:30Z</date>
+			<date>2013-09-06T17:20:10Z</date>
 			<key>plainText</key>
-			<string>console.log("%c%|", "color: blue;");</string>
+			<string>console.log('%c%|', 'color: blue;');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
@@ -1008,15 +1091,15 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>console.log()</string>
 			<key>lastUsed</key>
-			<date>2013-04-11T19:10:06Z</date>
+			<date>2013-11-14T18:26:04Z</date>
 			<key>modificationDate</key>
-			<date>2013-03-30T20:55:27Z</date>
+			<date>2013-09-06T17:20:00Z</date>
 			<key>plainText</key>
-			<string>console.log("%|");</string>
+			<string>console.log('%|');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>1</integer>
+			<integer>72</integer>
 			<key>uuidString</key>
 			<string>A72DBF08-9D2D-403C-B788-55E6E9A21107</string>
 		</dict>
@@ -1032,7 +1115,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>PreventDefault</string>
 			<key>lastUsed</key>
-			<date>2013-08-09T17:31:49Z</date>
+			<date>2013-11-14T17:48:41Z</date>
 			<key>modificationDate</key>
 			<date>2013-02-19T15:31:51Z</date>
 			<key>plainText</key>
@@ -1040,7 +1123,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>1</integer>
+			<integer>8</integer>
 			<key>uuidString</key>
 			<string>9522592E-04B9-4C4B-B6E9-0C0979535323</string>
 		</dict>
@@ -1080,7 +1163,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>Object Template</string>
 			<key>lastUsed</key>
-			<date>2013-08-03T20:19:11Z</date>
+			<date>2013-10-04T17:14:21Z</date>
 			<key>modificationDate</key>
 			<date>2013-02-19T15:32:58Z</date>
 			<key>plainText</key>
@@ -1109,7 +1192,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>8</integer>
+			<integer>13</integer>
 			<key>uuidString</key>
 			<string>4F7B1F54-75C4-4BE7-A0F7-430B4C444EF8</string>
 		</dict>
@@ -1124,14 +1207,16 @@ console.timeEnd("%filltext:name=label%");</string>
 			<integer>0</integer>
 			<key>label</key>
 			<string>Use Strict</string>
+			<key>lastUsed</key>
+			<date>2013-11-14T17:58:21Z</date>
 			<key>modificationDate</key>
-			<date>2013-02-10T23:29:16Z</date>
+			<date>2013-09-06T17:19:49Z</date>
 			<key>plainText</key>
-			<string>"use strict";</string>
+			<string>'use strict';</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>uuidString</key>
 			<string>56215D41-1E2B-4693-B235-5DB4656AE3A3</string>
 		</dict>
@@ -1147,7 +1232,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string></string>
 			<key>lastUsed</key>
-			<date>2013-08-03T20:36:16Z</date>
+			<date>2013-10-27T22:12:56Z</date>
 			<key>modificationDate</key>
 			<date>2010-06-10T03:56:15Z</date>
 			<key>plainText</key>
@@ -1157,7 +1242,7 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>55</integer>
+			<integer>59</integer>
 			<key>uuidString</key>
 			<string>344F334A-135A-4CFC-A599-6DB8486C23CE</string>
 		</dict>
@@ -1173,17 +1258,17 @@ console.timeEnd("%filltext:name=label%");</string>
 			<key>label</key>
 			<string>selfInvokingFunction</string>
 			<key>lastUsed</key>
-			<date>2013-08-08T18:40:14Z</date>
+			<date>2013-11-14T17:58:14Z</date>
 			<key>modificationDate</key>
-			<date>2012-05-08T20:17:02Z</date>
+			<date>2013-10-09T16:26:12Z</date>
 			<key>plainText</key>
 			<string>(function() {
   
-})();</string>
+}());</string>
 			<key>snippetType</key>
 			<integer>0</integer>
 			<key>useCount</key>
-			<integer>13</integer>
+			<integer>24</integer>
 			<key>uuidString</key>
 			<string>A890DC7E-FA65-4203-8E0B-13FF4293B5CB</string>
 		</dict>
