@@ -30,6 +30,10 @@ I typically always use the same sort of structure on SASS projects. These are my
 
 Simple patterns and snippets used in everyday js development. Basic object template, self-invoking anon function, jQuery doc ready and the wide range of console.log uses included.
 
+#### GruntJS
+
+Includes common GruntJS code. Registering tasks, grunt-init and Gruntfile.js templates, etc.
+
 #### Filesystem
 
 Shortcuts for moving around the system while working within the Terminal.
