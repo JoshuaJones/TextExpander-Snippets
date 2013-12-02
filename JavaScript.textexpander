@@ -13,6 +13,47 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>,jspreventhover</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-12-02T18:21:14Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Prevent Hover On Scroll</string>
+			<key>modificationDate</key>
+			<date>2013-12-02T18:21:37Z</date>
+			<key>plainText</key>
+			<string>var body = document.body,
+    scrollTimer;
+
+window.addEventListener('scroll', function() {
+  clearTimeout(scrollTimer);
+  if(!body.classList.contains('disable-hover')) {
+    body.classList.add('disable-hover');
+  }
+  
+  scrollTimer = setTimeout(function(){
+    body.classList.remove('disable-hover');
+  }, 500);
+}, false);
+
+/*
+.disable-hover,
+.disable-hover * {
+  pointer-events: none !important;
+}
+*/</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D13D46F5-313F-4284-B790-5FA1CB8F3686</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>,jsmethod</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
