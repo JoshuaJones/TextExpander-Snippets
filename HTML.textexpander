@@ -18,8 +18,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-12T16:05:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>YouTube Thumbnail</string>
 			<key>modificationDate</key>
@@ -28,35 +26,8 @@
 			<string>http://img.youtube.com/vi/%filltext:name=videoID%/%fillpopup:name=Images:default.jpg:hqdefault.jpg:mqdefault.jpg:maxresdefault.jpg%</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>929472C4-B3C9-43F6-A20C-F17DAB58E44B</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,ie6pngfix</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2011-12-10T21:37:02Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>IE6 PNG Fix Script</string>
-			<key>modificationDate</key>
-			<date>2011-12-10T21:37:15Z</date>
-			<key>plainText</key>
-			<string>&lt;!--[if lt IE 7 ]&gt;
-		&lt;script src="js/libs/dd_belatedpng.js"&gt;&lt;/script&gt;
-		&lt;script&gt;DD_belatedPNG.fix("img, .png_bg"); // Fix any &lt;img&gt; or .png_bg bg-images. Also, please read goo.gl/mZiyb &lt;/script&gt;
-	&lt;![endif]--&gt;</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>26FC7F0A-26F6-40B8-87A4-D30353C0E42B</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -65,20 +36,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-06-08T20:37:10Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Clipboard Link</string>
-			<key>lastUsed</key>
-			<date>2012-11-29T18:18:09Z</date>
 			<key>modificationDate</key>
 			<date>2011-06-08T20:37:25Z</date>
 			<key>plainText</key>
 			<string>&lt;a href="%clipboard"&gt;%|&lt;/a&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>71</integer>
 			<key>uuidString</key>
 			<string>7915F919-AB50-467E-BCED-BCA9A0AFD554</string>
 		</dict>
@@ -89,20 +54,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-10-02T00:15:30Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Placehold.it</string>
-			<key>lastUsed</key>
-			<date>2013-03-16T22:49:48Z</date>
 			<key>modificationDate</key>
-			<date>2011-10-08T22:13:07Z</date>
+			<date>2016-06-28T21:59:28Z</date>
 			<key>plainText</key>
-			<string>&lt;img src="http://placehold.it/%fill:width%x%fill:height%" width="%fill:width%" height="%fill:height%" /&gt;</string>
+			<string>&lt;img src="http://placehold.it/%fill:width%x%fill:height%" /&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>62</integer>
 			<key>uuidString</key>
 			<string>1F25FC99-5D6A-45A9-96A9-C62D935064CC</string>
 		</dict>
@@ -113,20 +72,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-11-28T21:35:20Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;input type="checkbox" name="%|" value="" /&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>11</integer>
 			<key>uuidString</key>
 			<string>CC4AA73C-58D9-402E-93F9-804BFDDA3681</string>
 		</dict>
@@ -137,8 +90,6 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -146,8 +97,6 @@
 			<key>plainText</key>
 			<string>&lt;input type="hidden" name="%|" value="" /&gt;</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>88A01493-8303-4CAD-A5E3-6CD6D0BBCBFD</string>
@@ -159,20 +108,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-04-25T04:17:44Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;input type="radio" name="%|" value="" /&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>12</integer>
 			<key>uuidString</key>
 			<string>9EC9C693-32FC-4995-99D5-E52BBBB76297</string>
 		</dict>
@@ -183,20 +126,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2010-09-17T13:33:37Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;input type="reset" value="%|" /&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>1</integer>
 			<key>uuidString</key>
 			<string>AD0B6B38-3946-4FF8-BBCB-1732831C9565</string>
 		</dict>
@@ -207,20 +144,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2013-02-16T19:19:22Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;em&gt;%|&lt;/em&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>69</integer>
 			<key>uuidString</key>
 			<string>4DCB17D6-4A51-4E13-BAD5-4E4DD58DA9AE</string>
 		</dict>
@@ -231,12 +162,8 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-11-08T18:24:32Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
@@ -245,8 +172,6 @@
 			</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>29</integer>
 			<key>uuidString</key>
 			<string>590C2EE5-558D-4903-9756-B8C7766BB39D</string>
 		</dict>
@@ -257,20 +182,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-19T22:05:42Z</date>
 			<key>modificationDate</key>
 			<date>2012-03-29T01:12:39Z</date>
 			<key>plainText</key>
 			<string>&lt;input type="text" name="%|" value=""/&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>60</integer>
 			<key>uuidString</key>
 			<string>645A7832-3306-4C2C-982E-CD61532E34FA</string>
 		</dict>
@@ -281,12 +200,8 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-09T20:18:31Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
@@ -296,8 +211,6 @@
 			</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>9</integer>
 			<key>uuidString</key>
 			<string>F4ED7015-1C51-4139-B101-F0213284EF19</string>
 		</dict>
@@ -308,20 +221,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-02-29T19:38:20Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;textarea name="textarea" rows="" cols="" wrap="wrap"&gt;%|&lt;/textarea&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>34</integer>
 			<key>uuidString</key>
 			<string>60A12C6C-A903-47F8-BA76-CCE0EE70CADD</string>
 		</dict>
@@ -332,12 +239,8 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-19T22:06:24Z</date>
 			<key>modificationDate</key>
 			<date>2010-06-10T03:29:22Z</date>
 			<key>plainText</key>
@@ -348,8 +251,6 @@
 &lt;/select&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>27</integer>
 			<key>uuidString</key>
 			<string>05F0D1B6-BDD5-463F-8A04-E121D0299069</string>
 		</dict>
@@ -360,20 +261,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-05T23:39:27Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;script type="text/javascript" language="Javascript" src="%|"&gt;&lt;/script&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>17</integer>
 			<key>uuidString</key>
 			<string>4A474C50-4E5C-4A5C-8B11-EDDDBD232227</string>
 		</dict>
@@ -384,12 +279,8 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-11-10T22:45:49Z</date>
 			<key>modificationDate</key>
 			<date>2012-03-19T21:45:23Z</date>
 			<key>plainText</key>
@@ -400,8 +291,6 @@
 &lt;/table&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>37</integer>
 			<key>uuidString</key>
 			<string>02FEE9FC-D650-4D21-A29E-7E7AA9D8D8A5</string>
 		</dict>
@@ -412,20 +301,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-11-10T22:46:17Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;td&gt;%|&lt;/td&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>158</integer>
 			<key>uuidString</key>
 			<string>E2F48E8F-9EB7-4316-B97A-008E775C651D</string>
 		</dict>
@@ -436,20 +319,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-11-21T19:30:49Z</date>
 			<key>modificationDate</key>
 			<date>2010-06-10T03:29:35Z</date>
 			<key>plainText</key>
 			<string>&lt;dt&gt;%|&lt;/dt&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>24</integer>
 			<key>uuidString</key>
 			<string>E7BA0047-0CA9-44D8-B708-1ECA2D325BC8</string>
 		</dict>
@@ -460,20 +337,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-11-21T19:30:57Z</date>
 			<key>modificationDate</key>
 			<date>2010-06-10T03:29:38Z</date>
 			<key>plainText</key>
 			<string>&lt;dd&gt;%|&lt;/dd&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>27</integer>
 			<key>uuidString</key>
 			<string>1A9E807C-13B6-47EC-BEA4-232E662E9639</string>
 		</dict>
@@ -484,20 +355,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-09-05T20:38:22Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;input type="submit" value="%|" /&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>31</integer>
 			<key>uuidString</key>
 			<string>24443B69-6D4A-46EE-A2A0-5ACCE8369B52</string>
 		</dict>
@@ -508,12 +373,8 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-11-29T00:51:36Z</date>
 			<key>modificationDate</key>
 			<date>2010-06-10T03:30:10Z</date>
 			<key>plainText</key>
@@ -525,8 +386,6 @@
 &lt;/dl&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>39</integer>
 			<key>uuidString</key>
 			<string>C9D385CD-14B4-4F09-83BE-468FBB06088E</string>
 		</dict>
@@ -537,20 +396,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2013-03-25T18:37:27Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;img src="%|" alt="" width="" height="" border="0" /&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>157</integer>
 			<key>uuidString</key>
 			<string>E1081EAD-49D5-41BA-B559-B3AF3EAD796E</string>
 		</dict>
@@ -561,12 +414,8 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2012-06-23T09:32:39Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>HTML Template</string>
-			<key>lastUsed</key>
-			<date>2013-03-30T22:09:11Z</date>
 			<key>modificationDate</key>
 			<date>2012-11-11T22:53:12Z</date>
 			<key>plainText</key>
@@ -610,8 +459,6 @@
 &lt;/html&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>40</integer>
 			<key>uuidString</key>
 			<string>C569CCC9-630C-410E-9B88-71F27A5C39EE</string>
 		</dict>
@@ -622,20 +469,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2013-04-11T20:50:33Z</date>
 			<key>modificationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
 			<key>plainText</key>
 			<string>&lt;a href="%|"&gt;&lt;/a&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>894</integer>
 			<key>uuidString</key>
 			<string>1974BAE6-D763-472C-86EB-CF9783F54E96</string>
 		</dict>
@@ -646,12 +487,8 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;ol&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-01-03T22:43:11Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:13:23Z</date>
 			<key>plainText</key>
@@ -660,8 +497,6 @@
 &lt;/ol&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>45</integer>
 			<key>uuidString</key>
 			<string>AB199A1B-5BE4-4FF4-9ACB-FF529BDC276C</string>
 		</dict>
@@ -672,20 +507,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2012-06-23T09:11:51Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;header&gt;</string>
-			<key>lastUsed</key>
-			<date>2012-10-31T21:06:20Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:13:27Z</date>
 			<key>plainText</key>
 			<string>&lt;header&gt;%|&lt;/header&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>1</integer>
 			<key>uuidString</key>
 			<string>87812D29-5E42-4155-B3CA-ECF0733BE54D</string>
 		</dict>
@@ -696,20 +525,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;strong&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-02-16T19:19:07Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:22Z</date>
 			<key>plainText</key>
 			<string>&lt;strong&gt;%|&lt;/strong&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>149</integer>
 			<key>uuidString</key>
 			<string>F2A9CD6E-3B77-43E1-ABE8-3DF998CB712E</string>
 		</dict>
@@ -720,20 +543,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;span&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-02-19T22:52:28Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:29Z</date>
 			<key>plainText</key>
 			<string>&lt;span&gt;%|&lt;/span&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>202</integer>
 			<key>uuidString</key>
 			<string>28F62B7D-4C41-4E2B-A333-EEEA7BA32CBB</string>
 		</dict>
@@ -744,20 +561,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-07-13T00:26:29Z</date>
 			<key>modificationDate</key>
 			<date>2012-07-13T00:26:47Z</date>
 			<key>plainText</key>
 			<string>&lt;br /&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>124</integer>
 			<key>uuidString</key>
 			<string>0176E21A-84BA-4619-B119-F9784A087221</string>
 		</dict>
@@ -768,20 +579,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;div&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-03-17T21:54:07Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:34Z</date>
 			<key>plainText</key>
 			<string>&lt;div&gt;%|&lt;/div&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>893</integer>
 			<key>uuidString</key>
 			<string>2E5CCC51-C09E-43E6-836D-7AD6A73CD827</string>
 		</dict>
@@ -792,20 +597,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;p&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-03-16T21:50:19Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:37Z</date>
 			<key>plainText</key>
 			<string>&lt;p&gt;%|&lt;/p&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>836</integer>
 			<key>uuidString</key>
 			<string>BC5F1897-75CB-458B-8AD9-15329240AE28</string>
 		</dict>
@@ -816,12 +615,8 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;ul&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-03-17T21:57:28Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:42Z</date>
 			<key>plainText</key>
@@ -830,8 +625,6 @@
 &lt;/ul&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>276</integer>
 			<key>uuidString</key>
 			<string>474A1397-2108-4935-8439-9359EBB74E19</string>
 		</dict>
@@ -842,20 +635,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;li&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-02-24T22:58:13Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:48Z</date>
 			<key>plainText</key>
 			<string>&lt;li&gt;%|&lt;/li&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>602</integer>
 			<key>uuidString</key>
 			<string>0F264DF1-BC9B-45E5-9B9A-7675C6C2886C</string>
 		</dict>
@@ -866,20 +653,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;h6&gt;</string>
-			<key>lastUsed</key>
-			<date>2012-01-22T04:26:38Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:52Z</date>
 			<key>plainText</key>
 			<string>&lt;h6&gt;%|&lt;/h6&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>2</integer>
 			<key>uuidString</key>
 			<string>61917B69-B576-41AB-BD2C-1481EB462DA8</string>
 		</dict>
@@ -890,20 +671,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;h5&gt;</string>
-			<key>lastUsed</key>
-			<date>2012-10-21T22:33:26Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:56Z</date>
 			<key>plainText</key>
 			<string>&lt;h5&gt;%|&lt;/h5&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>8</integer>
 			<key>uuidString</key>
 			<string>AC94A17E-9BFB-4F95-8D93-9B740E373A2A</string>
 		</dict>
@@ -914,20 +689,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;h1&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-03-16T21:43:54Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:12:59Z</date>
 			<key>plainText</key>
 			<string>&lt;h1&gt;%|&lt;/h1&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>66</integer>
 			<key>uuidString</key>
 			<string>C523E028-3CDF-48DD-8703-2C24EDC28E36</string>
 		</dict>
@@ -938,20 +707,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;h3&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-03-19T20:25:12Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:13:03Z</date>
 			<key>plainText</key>
 			<string>&lt;h3&gt;%|&lt;/h3&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>124</integer>
 			<key>uuidString</key>
 			<string>309281A8-8ECD-43B2-89FA-227F6932C6CA</string>
 		</dict>
@@ -962,20 +725,14 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;h4&gt;</string>
-			<key>lastUsed</key>
-			<date>2012-11-29T01:11:01Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:13:06Z</date>
 			<key>plainText</key>
 			<string>&lt;h4&gt;%|&lt;/h4&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>38</integer>
 			<key>uuidString</key>
 			<string>00521335-E53B-486B-BA07-51557F81E4E0</string>
 		</dict>
@@ -986,22 +743,34 @@
 			<integer>2</integer>
 			<key>creationDate</key>
 			<date>2009-05-31T02:19:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>&lt;h2&gt;</string>
-			<key>lastUsed</key>
-			<date>2013-03-25T18:28:36Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:13:08Z</date>
 			<key>plainText</key>
 			<string>&lt;h2&gt;%|&lt;/h2&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>231</integer>
 			<key>uuidString</key>
 			<string>4AC4ABC9-844F-41B7-A66E-FA7518E4F186</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,,unimg</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-09-06T20:04:05Z</date>
+			<key>label</key>
+			<string>Unsplash</string>
+			<key>modificationDate</key>
+			<date>2014-09-06T20:05:51Z</date>
+			<key>plainText</key>
+			<string>&lt;img src="http://unsplash.it/%fill:width%/%fill:height%" /&gt;</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>894D1066-25BF-4880-A196-1CF0723EFB9B</string>
 		</dict>
 	</array>
 </dict>

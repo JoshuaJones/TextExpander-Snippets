@@ -18,20 +18,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2012-10-02T23:34:08Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Shrug</string>
-			<key>lastUsed</key>
-			<date>2012-11-05T19:08:18Z</date>
 			<key>modificationDate</key>
 			<date>2012-10-02T23:34:08Z</date>
 			<key>plainText</key>
 			<string>¯\_(ツ)_/¯</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>4</integer>
 			<key>uuidString</key>
 			<string>9AC1258A-91C7-42CD-A5C5-10CFB2D2CDBF</string>
 		</dict>
@@ -42,20 +36,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2012-09-28T19:24:51Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Set Table Down</string>
-			<key>lastUsed</key>
-			<date>2012-11-02T23:03:34Z</date>
 			<key>modificationDate</key>
 			<date>2012-09-28T19:25:03Z</date>
 			<key>plainText</key>
 			<string>┬──┬◡o(° -°`` )﻿</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>5</integer>
 			<key>uuidString</key>
 			<string>3357335E-E59A-40D1-8895-29A45FEDFA87</string>
 		</dict>
@@ -66,20 +54,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2012-09-27T06:13:08Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Wide Eyed</string>
-			<key>lastUsed</key>
-			<date>2012-11-02T23:03:12Z</date>
 			<key>modificationDate</key>
 			<date>2012-09-27T06:13:21Z</date>
 			<key>plainText</key>
 			<string>๏_๏</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>5</integer>
 			<key>uuidString</key>
 			<string>EE574658-DF9B-4C4D-A220-6E018D8E531D</string>
 		</dict>
@@ -90,20 +72,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-10-16T21:26:38Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Flip Table</string>
-			<key>lastUsed</key>
-			<date>2012-11-02T21:40:53Z</date>
 			<key>modificationDate</key>
 			<date>2011-10-16T21:26:50Z</date>
 			<key>plainText</key>
 			<string>(╯°□°）╯︵ ┻━┻</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>12</integer>
 			<key>uuidString</key>
 			<string>C939058E-CB7E-4960-A228-B16946BBC364</string>
 		</dict>
@@ -114,20 +90,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-10-16T21:25:38Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Disapproval</string>
-			<key>lastUsed</key>
-			<date>2012-10-26T23:51:24Z</date>
 			<key>modificationDate</key>
 			<date>2011-10-16T21:26:00Z</date>
 			<key>plainText</key>
 			<string>ಠ_ಠ</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>12</integer>
 			<key>uuidString</key>
 			<string>8B3D4CE7-4A75-43C1-9695-03B627715C94</string>
 		</dict>
@@ -138,20 +108,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2012-05-25T00:14:00Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Irony Punctuation</string>
-			<key>lastUsed</key>
-			<date>2012-06-23T01:36:07Z</date>
 			<key>modificationDate</key>
 			<date>2012-05-25T00:14:10Z</date>
 			<key>plainText</key>
 			<string>⸮</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>2</integer>
 			<key>uuidString</key>
 			<string>73ED4547-B093-4B66-92CD-A823AC96996C</string>
 		</dict>
@@ -162,8 +126,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-22T18:16:18Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -171,8 +133,6 @@
 			<key>plainText</key>
 			<string>↩</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>6F7764C4-4958-4429-9E5F-13416AC81975</string>
@@ -184,8 +144,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-22T18:16:00Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -193,8 +151,6 @@
 			<key>plainText</key>
 			<string>↘</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>8B96CB4C-33E8-446E-B5CC-A17AA6BD58C6</string>
@@ -206,8 +162,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-22T18:15:48Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -215,8 +169,6 @@
 			<key>plainText</key>
 			<string>↖</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>9471792C-D98F-4DB7-974A-55D77A5AB8AE</string>
@@ -228,8 +180,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-22T18:15:33Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -237,8 +187,6 @@
 			<key>plainText</key>
 			<string>⎋</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>130BA97D-7417-433B-BFED-A8F03E91FEB6</string>
@@ -250,8 +198,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-22T18:15:10Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -259,8 +205,6 @@
 			<key>plainText</key>
 			<string>⌫</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>18937368-1CC8-4D9E-86CD-79CC5F1ED112</string>
@@ -272,19 +216,13 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-22T18:04:23Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2011-03-22T18:05:13Z</date>
 			<key>modificationDate</key>
 			<date>2011-03-22T18:04:51Z</date>
 			<key>plainText</key>
 			<string>⇥</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>B2920B0A-800A-4B3E-BBCD-CD12FB1CC073</string>
@@ -296,20 +234,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2009-10-28T10:45:51Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>^</string>
-			<key>lastUsed</key>
-			<date>2011-03-22T18:10:19Z</date>
 			<key>modificationDate</key>
 			<date>2011-03-17T10:00:07Z</date>
 			<key>plainText</key>
 			<string>^</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>11</integer>
 			<key>uuidString</key>
 			<string>80895D7B-6D20-4F4F-B58E-193B921465B2</string>
 		</dict>
@@ -320,8 +252,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:48:33Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -329,8 +259,6 @@
 			<key>plainText</key>
 			<string>⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>53F88713-2CD3-47D4-AD1A-0FED8B8742EA</string>
@@ -342,8 +270,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:46:16Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -351,8 +277,6 @@
 			<key>plainText</key>
 			<string>➜</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>96F1E20C-71D1-4199-9E66-AB7A56FF2901</string>
@@ -364,8 +288,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:45:48Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -373,8 +295,6 @@
 			<key>plainText</key>
 			<string>✪</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>4C3EE011-309A-49EE-BA3D-D50F034EEF7D</string>
@@ -386,8 +306,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:45:36Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -395,8 +313,6 @@
 			<key>plainText</key>
 			<string>✩</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>00C5CCE3-3B61-4F4C-A671-C6B04873374A</string>
@@ -408,8 +324,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:45:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -417,8 +331,6 @@
 			<key>plainText</key>
 			<string>★</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>D31CA1CA-A85A-446A-89A0-AF9639A35CF6</string>
@@ -430,20 +342,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:43:44Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2011-03-20T16:44:40Z</date>
 			<key>modificationDate</key>
 			<date>2011-03-20T16:43:44Z</date>
 			<key>plainText</key>
 			<string>☣</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>4</integer>
 			<key>uuidString</key>
 			<string>BCDC57BD-47C6-4383-8776-1890EE91E284</string>
 		</dict>
@@ -454,8 +360,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:43:27Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -463,8 +367,6 @@
 			<key>plainText</key>
 			<string>☠</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>D58D0938-66ED-4F05-B6A3-B08B639CB07C</string>
@@ -476,8 +378,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:42:58Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -485,8 +385,6 @@
 			<key>plainText</key>
 			<string>☺</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>8FC17DA5-92D1-461E-8C80-3D907BF3306B</string>
@@ -498,20 +396,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-03-20T16:42:35Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2011-03-20T16:44:51Z</date>
 			<key>modificationDate</key>
 			<date>2011-03-20T16:42:47Z</date>
 			<key>plainText</key>
 			<string>♥</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>1</integer>
 			<key>uuidString</key>
 			<string>E4872523-5CA5-4857-A39F-E86CF8B56C44</string>
 		</dict>
@@ -522,20 +414,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2009-10-28T10:45:51Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Control-Command-W</string>
-			<key>lastUsed</key>
-			<date>2012-06-23T09:01:28Z</date>
 			<key>modificationDate</key>
 			<date>2010-10-27T14:56:30Z</date>
 			<key>plainText</key>
 			<string>^⌘W</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>17</integer>
 			<key>uuidString</key>
 			<string>F46CE3A8-C631-4C89-99DD-0AE5CAD1DD9B</string>
 		</dict>
@@ -546,20 +432,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2008-04-20T08:37:23Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-22T16:46:46Z</date>
 			<key>modificationDate</key>
 			<date>2010-10-27T14:56:10Z</date>
 			<key>plainText</key>
 			<string>⌘</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>38</integer>
 			<key>uuidString</key>
 			<string>11EF2D52-7B2D-4444-9A08-8277F499794F</string>
 		</dict>
@@ -570,20 +450,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2008-04-20T08:36:12Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2010-06-22T05:19:42Z</date>
 			<key>modificationDate</key>
 			<date>2010-10-27T14:56:13Z</date>
 			<key>plainText</key>
 			<string>↓</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>7</integer>
 			<key>uuidString</key>
 			<string>4DEB8796-BFEB-49C2-A74B-1EB9A566A8D5</string>
 		</dict>
@@ -594,20 +468,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2008-04-20T08:35:41Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2011-02-17T21:54:03Z</date>
 			<key>modificationDate</key>
 			<date>2010-10-27T14:56:15Z</date>
 			<key>plainText</key>
 			<string>←</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>4</integer>
 			<key>uuidString</key>
 			<string>82EFFB6A-7AA8-4299-803F-92612399D020</string>
 		</dict>
@@ -618,20 +486,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2008-04-20T08:36:34Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2011-02-18T14:24:29Z</date>
 			<key>modificationDate</key>
 			<date>2011-03-20T16:48:29Z</date>
 			<key>plainText</key>
 			<string>⌥</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>10</integer>
 			<key>uuidString</key>
 			<string>AC8ABBD5-109D-4BA4-88AA-4B2D8EA59773</string>
 		</dict>
@@ -642,20 +504,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2008-04-20T08:34:54Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2011-02-17T21:54:00Z</date>
 			<key>modificationDate</key>
 			<date>2010-10-27T14:56:21Z</date>
 			<key>plainText</key>
 			<string>→</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>14</integer>
 			<key>uuidString</key>
 			<string>DEA70E3A-BAD6-403F-A501-DC6D49B771B5</string>
 		</dict>
@@ -666,20 +522,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2008-07-24T15:05:05Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>⇧</string>
-			<key>lastUsed</key>
-			<date>2011-02-18T22:22:08Z</date>
 			<key>modificationDate</key>
 			<date>2010-10-27T14:56:23Z</date>
 			<key>plainText</key>
 			<string>⇧</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>16</integer>
 			<key>uuidString</key>
 			<string>A5703DBE-E919-4619-9837-00F165AFA52C</string>
 		</dict>
@@ -690,20 +540,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2008-04-20T08:35:30Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2010-10-11T06:01:05Z</date>
 			<key>modificationDate</key>
 			<date>2010-10-27T14:56:26Z</date>
 			<key>plainText</key>
 			<string>↑</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>4</integer>
 			<key>uuidString</key>
 			<string>98EA6E7F-B587-4E91-89B5-CA08C2A99ED8</string>
 		</dict>

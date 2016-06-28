@@ -13,13 +13,41 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>,jsextend</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2014-02-12T18:47:51Z</date>
+			<key>label</key>
+			<string></string>
+			<key>modificationDate</key>
+			<date>2014-02-12T18:47:55Z</date>
+			<key>plainText</key>
+			<string>function extend(destination, source) {
+    var toString = Object.prototype.toString,
+        objTest = toString.call({});
+    for (var property in source) {
+        if (source[property] &amp;&amp; objTest == toString.call(source[property])) {
+            destination[property] = destination[property] || {};
+            extend(destination[property], source[property]);
+        } else {
+            destination[property] = source[property];
+        }
+    }
+    return destination;
+};</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>8A7EA0E5-1144-4CC7-8440-9D7868953840</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>,jspreventhover</string>
 			<key>abbreviationMode</key>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-12-02T18:21:14Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Prevent Hover On Scroll</string>
 			<key>modificationDate</key>
@@ -47,36 +75,8 @@ window.addEventListener('scroll', function() {
 */</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>D13D46F5-313F-4284-B790-5FA1CB8F3686</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jsmethod</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-11-14T22:02:34Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>JS Method</string>
-			<key>lastUsed</key>
-			<date>2013-11-14T22:02:56Z</date>
-			<key>modificationDate</key>
-			<date>2013-11-14T22:02:44Z</date>
-			<key>plainText</key>
-			<string>%filltext:name=Method%: function (%filltext:name=Args%) {
-  %|
-}</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>82C8FB4A-D854-4C9D-B31F-07A2F33C7F2D</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -85,8 +85,6 @@ window.addEventListener('scroll', function() {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-09-12T21:29:31Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -104,8 +102,6 @@ window.addEventListener('scroll', function() {
 // addCssRule(document.styleSheets[0], '', '');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>E4D8D038-5DC6-45EB-A52C-AC926FD3214F</string>
 		</dict>
@@ -116,8 +112,6 @@ window.addEventListener('scroll', function() {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-09-12T21:19:49Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Event Delegation</string>
 			<key>modificationDate</key>
@@ -130,8 +124,6 @@ window.addEventListener('scroll', function() {
 });</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>E86E58EF-2226-420E-8DE8-FD41A549E024</string>
 		</dict>
@@ -142,8 +134,6 @@ window.addEventListener('scroll', function() {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-08-09T17:29:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>jQuery Ajax Cache</string>
 			<key>modificationDate</key>
@@ -168,32 +158,8 @@ $('#ajaxForm').on('submit', function(e) {
 });</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>86EF88FB-1AF0-4A89-86B0-AB9BCD74C03F</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,mergearr</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-08-09T17:14:34Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Merge Arrays</string>
-			<key>modificationDate</key>
-			<date>2013-08-09T17:14:34Z</date>
-			<key>plainText</key>
-			<string>Array.prototype.push.apply(%filltext:name=Starting Array%, %filltext:name=Added Array%);</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>B3CA58F9-2E1E-43FF-A5A7-C25CCA84E585</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -202,77 +168,19 @@ $('#ajaxForm').on('submit', function(e) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-08-09T17:09:36Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Key Check</string>
 			<key>modificationDate</key>
-			<date>2013-08-09T17:10:30Z</date>
+			<date>2016-06-28T21:49:00Z</date>
 			<key>plainText</key>
-			<string>// Better feature detection, no mem leak
-if("%filltext:name=Feature%" in navigator) {
+			<string>if("%filltext:name=Feature%" in navigator) {
     %|
 }
 </string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>555CAB89-4565-4FB7-9D17-0DA205E282BE</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jslightselector</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-08-03T22:54:20Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Lightweight Selector</string>
-			<key>modificationDate</key>
-			<date>2013-08-03T22:54:43Z</date>
-			<key>plainText</key>
-			<string>window.$ = function(selector) {
-  return document.querySelector(selector);
-};
-
-window.$$ = function(selector) {
-  var items = {},
-  results = [],
-  length = 0,
-  i = 0;
-
-  // this doesn't work on IE 8- and Blackberry Browser
-  results = Array.prototype.slice.call(document.querySelectorAll(selector));
-  length = results.length;
-
-  // add the results to the items object
-  for ( ; i &lt; length; ) {
-    items[i] = results[i];
-    i++;
-  }
-  items.length = length;
-
-  // add an 'each' method to the items
-  items.each = function(callback) {
-    var i = 0;
-    for ( ; i &lt; length; ) {
-      callback.call(items[i]);
-      i++;
-    }
-  }
-
-  return items;
-};</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>2EE63ED2-6949-44D0-90CA-FD9B2A83D4B9</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -281,8 +189,6 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-06-27T22:00:34Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>typeOf</string>
 			<key>modificationDate</key>
@@ -303,39 +209,8 @@ window.$$ = function(selector) {
 }</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>36543182-D0A5-4CD7-93DA-528E03CC325A</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jsmultiline</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-06-10T08:41:08Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>MultiLine Strings</string>
-			<key>modificationDate</key>
-			<date>2013-06-10T08:41:31Z</date>
-			<key>plainText</key>
-			<string>var html = (function () {/*
-  &lt;!DOCTYPE html&gt;
-  &lt;html&gt;
-    &lt;body&gt;
-      &lt;h1&gt;Hello, world!&lt;/h1&gt;
-    &lt;/body&gt;
-  &lt;/html&gt;        
-*/}).toString().match(/[^]*\/\*([^]*)\*\/\}$/)[1];</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>D1D56288-B0CD-4372-8E6D-EC9EF6D1EFF4</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -344,19 +219,13 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-05-14T16:41:00Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
-			<string></string>
-			<key>lastUsed</key>
-			<date>2013-05-14T16:46:36Z</date>
+			<string>Get el bounding rect</string>
 			<key>modificationDate</key>
-			<date>2013-05-14T16:46:20Z</date>
+			<date>2016-06-28T21:49:46Z</date>
 			<key>plainText</key>
 			<string>var %filltext:name=elRect% = document.querySelector('%|').getBoundingClientRect();</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>650178F4-D28D-464B-B388-65834F6A4BCB</string>
@@ -368,12 +237,8 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-05-10T17:29:41Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>JSHint Config File</string>
-			<key>lastUsed</key>
-			<date>2013-05-10T17:30:11Z</date>
 			<key>modificationDate</key>
 			<date>2013-05-10T17:30:34Z</date>
 			<key>plainText</key>
@@ -465,8 +330,6 @@ window.$$ = function(selector) {
 }</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>2059833F-B82E-4828-9D14-306E79D8FA5F</string>
 		</dict>
@@ -477,17 +340,13 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:45:25Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Remove Elem</string>
 			<key>modificationDate</key>
-			<date>2013-04-28T19:46:05Z</date>
+			<date>2016-06-28T21:50:16Z</date>
 			<key>plainText</key>
-			<string>document.getElementById('%filltext:name=elem%').parentNode.removeChild(document.getElementById('%filltext:name=elem%'))</string>
+			<string>document.querySelector('%filltext:name=elem%').parentNode.removeChild(document.querySelector('%filltext:name=elem%'))</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>1FF05B09-932D-4BB5-A37E-03D6F52D7B0B</string>
@@ -499,17 +358,13 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:44:58Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Add After Elem</string>
 			<key>modificationDate</key>
-			<date>2013-04-28T19:45:21Z</date>
+			<date>2016-06-28T21:50:25Z</date>
 			<key>plainText</key>
-			<string>document.getElementById('%|').insertAdjacentHTML('afterend', '&lt;div&gt;&lt;/div&gt;')</string>
+			<string>document.querySelector('%|').insertAdjacentHTML('afterend', '&lt;div&gt;&lt;/div&gt;')</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>031A3C35-B1E7-4734-9CEB-43A5700898DC</string>
@@ -521,17 +376,13 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:44:23Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Add Before Elem</string>
 			<key>modificationDate</key>
-			<date>2013-04-28T19:45:16Z</date>
+			<date>2016-06-28T21:50:46Z</date>
 			<key>plainText</key>
-			<string>document.getElementById('%|').insertAdjacentHTML('beforebegin', '&lt;div&gt;&lt;/div&gt;')</string>
+			<string>document.querySelector('%|').insertAdjacentHTML('beforebegin', '&lt;div&gt;&lt;/div&gt;')</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>D6C8711B-C193-46B5-A4C7-62F14676F713</string>
@@ -543,19 +394,13 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:43:54Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Prepend Elem</string>
-			<key>lastUsed</key>
-			<date>2013-05-01T23:45:47Z</date>
 			<key>modificationDate</key>
-			<date>2013-04-28T19:44:15Z</date>
+			<date>2016-06-28T21:50:55Z</date>
 			<key>plainText</key>
-			<string>document.getElementById('%|').insertAdjacentHTML('afterbegin', '&lt;div&gt;&lt;/div&gt;')</string>
+			<string>document.querySelector('%|').insertAdjacentHTML('afterbegin', '&lt;div&gt;&lt;/div&gt;')</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>C4578DE8-08B4-4BF0-86D1-509F9DAC00EB</string>
@@ -567,42 +412,16 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:43:27Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Append Elem</string>
 			<key>modificationDate</key>
-			<date>2013-04-28T19:43:27Z</date>
+			<date>2016-06-28T21:51:02Z</date>
 			<key>plainText</key>
-			<string>document.getElementById('%|').insertAdjacentHTML('beforeend', '&lt;div&gt;&lt;/div&gt;')</string>
+			<string>document.querySelector('%|').insertAdjacentHTML('beforeend', '&lt;div&gt;&lt;/div&gt;')</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>4B609346-453F-4480-9DD9-C503EC1DEC0F</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jshide</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:43:16Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Hide</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:43:52Z</date>
-			<key>plainText</key>
-			<string>document.getElementById('%|').style.display = 'none'</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>AAC95589-4C56-4ED6-AE42-DEDA605D539E</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -611,8 +430,6 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:43:00Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Toggle Class</string>
 			<key>modificationDate</key>
@@ -631,152 +448,8 @@ window.$$ = function(selector) {
 }</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>492435ED-180D-4374-8266-8DEE4C3FE191</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jsremoveclass</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:42:39Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Remove Class</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:42:39Z</date>
-			<key>plainText</key>
-			<string>function removeClass(elem, className) {
-  var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
-  if (hasClass(elem, className)) {
-    while (newClass.indexOf(' ' + className + ' ') &gt;= 0 ) {
-        newClass = newClass.replace(' ' + className + ' ', ' ');
-    }
-    elem.className = newClass.replace(/^\s+|\s+$/g, '');
-  }
-}</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>0AC2FF63-C490-4840-A4EA-CE32BC9644AF</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jsaddclass</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:39:35Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Add Class</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:39:35Z</date>
-			<key>plainText</key>
-			<string>document.getElementById('%|').className += ' ';</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>C5B15077-D29C-4D4E-A3F5-2952AB91A62F</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jshasclass</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:39:04Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>hasClass Test</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:39:04Z</date>
-			<key>plainText</key>
-			<string>function hasClass(elem, className) {
-  return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-}</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>5257EA28-3FE8-417F-B099-8A9C7510938A</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jssethtml</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:38:42Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Set HTML</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:38:42Z</date>
-			<key>plainText</key>
-			<string>document.getElementById('%|').innerHTML = ''</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>FCA3725B-6CE1-4BC3-A1AC-DE5373CD7C12</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jsgethtml</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:38:19Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Get HTML</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:38:19Z</date>
-			<key>plainText</key>
-			<string>document.getElementById('%|').innerHTML;</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>C0A4C835-3EA8-4D58-A6B5-3A4417B85D52</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jsval</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:37:58Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Elem Value</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:37:58Z</date>
-			<key>plainText</key>
-			<string>document.getElementById('%|').value</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>A9ADAEAF-4786-4BE8-97B2-E205EF9E6875</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -785,18 +458,14 @@ window.$$ = function(selector) {
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:37:29Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Next Sibling</string>
 			<key>modificationDate</key>
-			<date>2013-04-28T19:37:29Z</date>
+			<date>2016-06-28T21:52:16Z</date>
 			<key>plainText</key>
-			<string>var next = document.getElementById('%|').nextSibling;
+			<string>var next = document.querySelector('%|').nextSibling;
 while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>74B6898E-F3C4-48E4-A41E-6A54B524DAB9</string>
@@ -808,42 +477,16 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:37:04Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Parent Node</string>
 			<key>modificationDate</key>
-			<date>2013-04-28T19:37:04Z</date>
+			<date>2016-06-28T21:52:26Z</date>
 			<key>plainText</key>
-			<string>document.querySelectorAll('%|').parentNode</string>
+			<string>document.querySelector('%|').parentNode</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>C6751016-D563-4F84-B38B-9C3BDF6626ED</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,jstagelem</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-04-28T19:36:34Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>getElementsByTagName</string>
-			<key>modificationDate</key>
-			<date>2013-04-28T19:36:34Z</date>
-			<key>plainText</key>
-			<string>document.getElementsByTagName('%|');</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
-			<key>uuidString</key>
-			<string>BA38B531-BE43-4BD9-8605-D08D63FA5CEE</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -852,8 +495,6 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:36:01Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>getElementById</string>
 			<key>modificationDate</key>
@@ -861,8 +502,6 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<key>plainText</key>
 			<string>document.getElementById('%|');</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>36BEEB70-1394-47D5-832B-DCA6E90E229B</string>
@@ -874,19 +513,13 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-28T19:35:33Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>querySelectorAll</string>
-			<key>lastUsed</key>
-			<date>2013-05-01T23:43:52Z</date>
 			<key>modificationDate</key>
 			<date>2013-04-28T19:46:26Z</date>
 			<key>plainText</key>
 			<string>document.querySelectorAll('%|');</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>58BA30D4-582C-47EE-9254-7C55B7AC8B39</string>
@@ -898,8 +531,6 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-04-27T06:54:02Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Remove Hover Styles on iOS</string>
 			<key>modificationDate</key>
@@ -927,8 +558,6 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 }</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>0</integer>
 			<key>uuidString</key>
 			<string>FA1CA9E7-5BAF-4178-8BC9-D2F125C0897E</string>
 		</dict>
@@ -939,12 +568,8 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T21:00:02Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.group()</string>
-			<key>lastUsed</key>
-			<date>2013-10-08T16:56:46Z</date>
 			<key>modificationDate</key>
 			<date>2013-09-06T17:20:46Z</date>
 			<key>plainText</key>
@@ -953,8 +578,6 @@ while( next.nodeType &gt; 1 ) next = next.nextSibling</string>
 console.groupEnd();</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>11</integer>
 			<key>uuidString</key>
 			<string>080EA584-C95E-437E-A83B-76B752F64A2A</string>
 		</dict>
@@ -965,8 +588,6 @@ console.groupEnd();</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:58:53Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.time()</string>
 			<key>modificationDate</key>
@@ -976,8 +597,6 @@ console.groupEnd();</string>
 // … %|
 console.timeEnd('%filltext:name=label%');</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>D002082B-7286-47C5-809D-3B466D5FA086</string>
@@ -989,8 +608,6 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:58:31Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.assert()</string>
 			<key>modificationDate</key>
@@ -998,8 +615,6 @@ console.timeEnd('%filltext:name=label%');</string>
 			<key>plainText</key>
 			<string>console.assert(condition, '');</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>82698DED-95EB-4D72-A760-DB16D7269610</string>
@@ -1011,8 +626,6 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:57:40Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.error()</string>
 			<key>modificationDate</key>
@@ -1020,8 +633,6 @@ console.timeEnd('%filltext:name=label%');</string>
 			<key>plainText</key>
 			<string>console.error('%|');</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>E8A1FA7F-03CA-4A48-BD2A-87DE80869253</string>
@@ -1033,8 +644,6 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:57:22Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.warn()</string>
 			<key>modificationDate</key>
@@ -1042,8 +651,6 @@ console.timeEnd('%filltext:name=label%');</string>
 			<key>plainText</key>
 			<string>console.warn('%|');</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>DD4C2A22-D5DD-4336-80BF-4101B6552405</string>
@@ -1055,19 +662,13 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:56:51Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.log() JS object</string>
-			<key>lastUsed</key>
-			<date>2013-11-14T17:43:51Z</date>
 			<key>modificationDate</key>
 			<date>2013-09-06T17:20:19Z</date>
 			<key>plainText</key>
 			<string>console.log('%O', %|);</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>2DA72793-3FB1-4C81-834F-E739117D1E11</string>
@@ -1079,20 +680,14 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:56:06Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.log() DOM element</string>
-			<key>lastUsed</key>
-			<date>2013-04-11T20:22:10Z</date>
 			<key>modificationDate</key>
 			<date>2013-09-06T17:20:14Z</date>
 			<key>plainText</key>
 			<string>console.log('%o', %|);</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>1</integer>
 			<key>uuidString</key>
 			<string>06FC6112-906D-4B9A-8D7E-688A3EA04E6E</string>
 		</dict>
@@ -1103,20 +698,14 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:55:30Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.log() Styled</string>
-			<key>lastUsed</key>
-			<date>2013-05-09T16:20:47Z</date>
 			<key>modificationDate</key>
 			<date>2013-09-06T17:20:10Z</date>
 			<key>plainText</key>
 			<string>console.log('%c%|', 'color: blue;');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>1</integer>
 			<key>uuidString</key>
 			<string>AECD1D5C-4895-4D9B-AE38-CCB27FE713E8</string>
 		</dict>
@@ -1127,20 +716,14 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-03-30T20:55:06Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>console.log()</string>
-			<key>lastUsed</key>
-			<date>2013-11-14T18:26:04Z</date>
 			<key>modificationDate</key>
 			<date>2013-09-06T17:20:00Z</date>
 			<key>plainText</key>
 			<string>console.log('%|');</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>72</integer>
 			<key>uuidString</key>
 			<string>A72DBF08-9D2D-403C-B788-55E6E9A21107</string>
 		</dict>
@@ -1151,46 +734,16 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-02-19T15:31:39Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>PreventDefault</string>
-			<key>lastUsed</key>
-			<date>2013-11-14T17:48:41Z</date>
 			<key>modificationDate</key>
 			<date>2013-02-19T15:31:51Z</date>
 			<key>plainText</key>
 			<string>e.preventDefault();</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>8</integer>
 			<key>uuidString</key>
 			<string>9522592E-04B9-4C4B-B6E9-0C0979535323</string>
-		</dict>
-		<dict>
-			<key>abbreviation</key>
-			<string>,self</string>
-			<key>abbreviationMode</key>
-			<integer>0</integer>
-			<key>creationDate</key>
-			<date>2013-02-19T15:31:08Z</date>
-			<key>flags</key>
-			<integer>0</integer>
-			<key>label</key>
-			<string>Self var</string>
-			<key>lastUsed</key>
-			<date>2013-02-19T22:25:00Z</date>
-			<key>modificationDate</key>
-			<date>2013-03-30T21:01:30Z</date>
-			<key>plainText</key>
-			<string>var self = %|</string>
-			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
-			<integer>1</integer>
-			<key>uuidString</key>
-			<string>BA92DD70-64BA-47E4-8BE5-BC194AC8B55B</string>
 		</dict>
 		<dict>
 			<key>abbreviation</key>
@@ -1199,14 +752,10 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-02-19T15:30:32Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Object Template</string>
-			<key>lastUsed</key>
-			<date>2013-10-04T17:14:21Z</date>
 			<key>modificationDate</key>
-			<date>2013-02-19T15:32:58Z</date>
+			<date>2016-06-28T21:53:40Z</date>
 			<key>plainText</key>
 			<string>var obj = {
   init: function( config ) {
@@ -1225,15 +774,9 @@ console.timeEnd('%filltext:name=label%');</string>
   bindEvents: function() {
     // on click/change/etc methods
   }
-}
-
-// obj.init({
-//  setting: $('div');
-// });</string>
+}</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>13</integer>
 			<key>uuidString</key>
 			<string>4F7B1F54-75C4-4BE7-A0F7-430B4C444EF8</string>
 		</dict>
@@ -1244,20 +787,14 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2013-02-10T23:28:24Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>Use Strict</string>
-			<key>lastUsed</key>
-			<date>2013-11-14T17:58:21Z</date>
 			<key>modificationDate</key>
 			<date>2013-09-06T17:19:49Z</date>
 			<key>plainText</key>
 			<string>'use strict';</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>2</integer>
 			<key>uuidString</key>
 			<string>56215D41-1E2B-4693-B235-5DB4656AE3A3</string>
 		</dict>
@@ -1268,12 +805,8 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2010-06-10T03:55:51Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2013-10-27T22:12:56Z</date>
 			<key>modificationDate</key>
 			<date>2010-06-10T03:56:15Z</date>
 			<key>plainText</key>
@@ -1282,8 +815,6 @@ console.timeEnd('%filltext:name=label%');</string>
 });</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>59</integer>
 			<key>uuidString</key>
 			<string>344F334A-135A-4CFC-A599-6DB8486C23CE</string>
 		</dict>
@@ -1294,12 +825,8 @@ console.timeEnd('%filltext:name=label%');</string>
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2012-04-29T20:24:58Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string>selfInvokingFunction</string>
-			<key>lastUsed</key>
-			<date>2013-11-14T17:58:14Z</date>
 			<key>modificationDate</key>
 			<date>2013-10-09T16:26:12Z</date>
 			<key>plainText</key>
@@ -1308,10 +835,59 @@ console.timeEnd('%filltext:name=label%');</string>
 }());</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>24</integer>
 			<key>uuidString</key>
 			<string>A890DC7E-FA65-4203-8E0B-13FF4293B5CB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,es6objtemplate</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2013-02-19T15:30:32Z</date>
+			<key>label</key>
+			<string>Object Template ES6</string>
+			<key>modificationDate</key>
+			<date>2016-06-28T21:55:20Z</date>
+			<key>plainText</key>
+			<string>var %| = {
+  init() {
+    this.cache();
+    this.bindEvents();
+  }
+
+  cache() {
+    
+  }
+
+  bindEvents() {
+    
+  }
+}</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>7F3B2AEB-D3A0-4585-BBD5-3F3036D8A09B</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>,tmto</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2016-06-28T22:04:03Z</date>
+			<key>label</key>
+			<string>TweenMax.to</string>
+			<key>modificationDate</key>
+			<date>2016-06-28T22:05:15Z</date>
+			<key>plainText</key>
+			<string>TweenMax.to(%filltext:name=el%, %filltext:name=time:default=0.2%, {
+  %|
+});</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>AA8DEA64-216E-4C51-AF54-E1102A30B778</string>
 		</dict>
 	</array>
 </dict>

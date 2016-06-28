@@ -18,20 +18,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:21:30Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-22T16:35:11Z</date>
 			<key>modificationDate</key>
 			<date>2012-06-23T09:03:41Z</date>
 			<key>plainText</key>
 			<string>[%|](%clipboard)</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>40</integer>
 			<key>uuidString</key>
 			<string>1B502493-8615-489F-9B5E-177846D89096</string>
 		</dict>
@@ -42,20 +36,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:23:56Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-29T17:27:07Z</date>
 			<key>modificationDate</key>
 			<date>2011-02-18T14:15:16Z</date>
 			<key>plainText</key>
 			<string>"%|"</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>35</integer>
 			<key>uuidString</key>
 			<string>ED2B2C7F-53AF-41BE-9614-76A981160A48</string>
 		</dict>
@@ -66,8 +54,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:24:16Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -75,8 +61,6 @@
 			<key>plainText</key>
 			<string>"%clipboard"</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>0F445249-9BB0-42B2-90AB-8081AEBB7FC8</string>
@@ -88,8 +72,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:26:35Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -97,8 +79,6 @@
 			<key>plainText</key>
 			<string>&lt;%clipboard&gt;</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>7E3C1183-BE55-4F73-9835-8CBD2ED9B1B1</string>
@@ -110,8 +90,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:26:53Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -119,8 +97,6 @@
 			<key>plainText</key>
 			<string>(%clipboard)</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>E47539DB-96C0-47DE-B440-FDDF2486B628</string>
@@ -132,8 +108,6 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:27:06Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
 			<key>modificationDate</key>
@@ -141,8 +115,6 @@
 			<key>plainText</key>
 			<string>(%|)</string>
 			<key>snippetType</key>
-			<integer>0</integer>
-			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
 			<string>D54CC3E9-CA84-4316-8BA1-38BBAC91023A</string>
@@ -154,20 +126,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:27:24Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-19T21:32:55Z</date>
 			<key>modificationDate</key>
 			<date>2011-02-18T14:14:25Z</date>
 			<key>plainText</key>
 			<string>'%|'</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>70</integer>
 			<key>uuidString</key>
 			<string>D4AC6522-6ED5-4F87-A7AD-27B377269316</string>
 		</dict>
@@ -178,20 +144,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:27:40Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-04T18:19:01Z</date>
 			<key>modificationDate</key>
 			<date>2011-02-17T16:27:40Z</date>
 			<key>plainText</key>
 			<string>[%|]</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>12</integer>
 			<key>uuidString</key>
 			<string>50801A24-93D6-46B8-A776-A79B6FD2DA5D</string>
 		</dict>
@@ -202,20 +162,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:29:02Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-26T01:59:34Z</date>
 			<key>modificationDate</key>
 			<date>2011-02-17T16:29:02Z</date>
 			<key>plainText</key>
 			<string>&lt;%|&gt;</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>4</integer>
 			<key>uuidString</key>
 			<string>912F060F-9020-4C6B-9C4F-B85F49BE6E62</string>
 		</dict>
@@ -226,20 +180,14 @@
 			<integer>0</integer>
 			<key>creationDate</key>
 			<date>2011-02-17T16:31:36Z</date>
-			<key>flags</key>
-			<integer>0</integer>
 			<key>label</key>
 			<string></string>
-			<key>lastUsed</key>
-			<date>2012-10-02T18:40:19Z</date>
 			<key>modificationDate</key>
 			<date>2011-02-17T16:31:36Z</date>
 			<key>plainText</key>
 			<string>[%clipboard]</string>
 			<key>snippetType</key>
 			<integer>0</integer>
-			<key>useCount</key>
-			<integer>1</integer>
 			<key>uuidString</key>
 			<string>DB22C24B-D55B-4A7F-B421-C02680BBC5C3</string>
 		</dict>

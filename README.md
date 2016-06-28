@@ -20,19 +20,11 @@ Collection of HTML entities for correctly rendering out quotation, math symbols 
 
 #### CSS
 
-Set of snippets for common css properties including properties needing prefixes. Typically SASS+Compass handles a lot of this, but on projects where that's not an option I turn to these trusty shortcuts.
-
-#### SASS
-
-I typically always use the same sort of structure on SASS projects. These are my "go-to" snippets for quickly setting up a mixin.scss or variables.scss file within said projects.
+Shortcuts for different css props.
 
 #### JavaScript
 
 Simple patterns and snippets used in everyday js development. Basic object template, self-invoking anon function, jQuery doc ready and the wide range of console.log uses included.
-
-#### GruntJS
-
-Includes common GruntJS code. Registering tasks, grunt-init and Gruntfile.js templates, etc.
 
 #### Filesystem
 
@@ -40,8 +32,8 @@ Shortcuts for moving around the system while working within the Terminal.
 
 #### Markdown
 
-I write a lot of stuff with Markdown. This makes it faster to do and also works when writing on the iPad.
+I write a lot using Markdown.
 
 #### Utilities
 
-Basic shortcuts for things like spitting out times and dates, fetching my internal or external IP, quick use of xip.io and other server related snippets.
+Basic shortcuts for things like spitting out times and dates, fetching my internal or external IP, git commit template, etc.
